@@ -1,0 +1,30 @@
+<legalnotice id="legalnotice">
+	<title>版权声明</title>
+	<para>转载请与作者联系，转载时请务必标明文章原始出处和作者信息及本声明。</para>
+	<simplelist type='horiz' columns='2'>
+		<member>
+		<ulink url="http://creativecommons.org/licenses/by/3.0/">
+			<graphic  format="png" fileref="../images/by-nc-sa.png" srccredit="neo" width="180" />
+		</ulink>
+		</member>
+		<member>
+			<simplelist>
+				<member>
+					文档出处:
+				</member>
+				<member>
+					<ulink url="http://netkiller.github.io/">http://netkiller.github.io</ulink>
+				</member>
+				<member>
+					<ulink url="http://netkiller.sourceforge.net/">http://netkiller.sourceforge.net</ulink>
+				</member>
+			</simplelist>
+		</member>
+	</simplelist>
+	<para></para>
+</legalnotice>
+<!--
+<releaseinfo>
+	<para>文档最近一次更新于 <date>{latest}</date></para>
+</releaseinfo>
+-->
