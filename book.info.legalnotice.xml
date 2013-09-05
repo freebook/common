@@ -4,7 +4,7 @@
 	<simplelist type='horiz' columns='2'>
 		<member>
 		<ulink url="http://creativecommons.org/licenses/by/3.0/">
-			<graphic  format="png" fileref="../images/by-nc-sa.png" srccredit="neo" width="180" />
+			<graphic  format="png" fileref="/images/by-nc-sa.png" srccredit="neo" width="180" />
 		</ulink>
 		</member>
 		<member>
