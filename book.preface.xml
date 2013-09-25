@@ -50,6 +50,13 @@
 			<para><ulink url="http://netkiller.github.com/home/technology.html" /></para>
 			<para><ulink url="http://netkiller.sourceforge.net/home/technology.html" />	</para>
 		</sidebar>
+		<sidebar id="htmlhelp">
+			<title>CHM 格式电子文档下载</title>
+			<para>
+				<ulink
+					url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" />
+			</para>
+		</sidebar>
 		<sidebar>
 			<title>PDF 格式</title>
 			<para>
@@ -70,7 +77,41 @@
 		</sidebar>
 		<sidebar>
 			<title>其他方式</title>
-			<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>
+			<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>	
+			<para>YUM 在线安装电子书</para>
+			<para><ulink url="http://netkiller.sourceforge.net/pub/repo/" /></para>
+			<screen>
+			<![CDATA[
+# cat >> /etc/yum.repos.d/netkiller.repo <<EOF
+[netkiller]
+name=Netkiller Free Books
+baseurl=http://netkiller.sourceforge.net/pub/repo/
+enabled=1
+gpgcheck=0
+gpgkey=
+EOF
+			]]>
+			</screen>
+			<para>查找包</para>
+			<screen>
+			<![CDATA[
+# yum search netkiller
+
+netkiller-centos.x86_64 : Netkiller centos Cookbook
+netkiller-cryptography.x86_64 : Netkiller cryptography Cookbook
+netkiller-docbook.x86_64 : Netkiller docbook Cookbook
+netkiller-linux.x86_64 : Netkiller linux Cookbook
+netkiller-mysql.x86_64 : Netkiller mysql Cookbook
+netkiller-php.x86_64 : Netkiller php Cookbook
+netkiller-postgresql.x86_64 : Netkiller postgresql Cookbook
+netkiller-python.x86_64 : Netkiller python Cookbook
+netkiller-version.x86_64 : Netkiller version Cookbook	
+			]]>
+			</screen>
+			<para>安装包</para>
+			<screen>
+yum install netkiller-docbook		
+			</screen>
 		</sidebar>
 <!--
 		<orderedlist>
