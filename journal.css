@@ -1,19 +1,4 @@
-@charset "utf-8";
-html body {
-	margin-top: 1em;
-	margin-left: 4em;
-	margin-right: 4em;
-	line-height: 1.2;
-}
-.navheader table tbody tr th{
-	font-size: 16pt;	
-}
 .screen {
-        background-color:#EEEEEE;
-        border:1px solid black;
-        padding:.5em;
-}
-.programlisting {
 	background-color:#EEEEEE; 
 	border:1px dashed black; 
 	padding:.5em;
@@ -23,7 +8,7 @@ html body {
 /*	background-color: grey; */
 }
 p {
-/*	text-indent:2em;*/
+	text-indent:2em;
 }
 abbrev
 {
@@ -123,7 +108,7 @@ caption
 citetitle
 {
   display: inline;
-  font-style: italic;
+  font-style: normal;
 }
 
 city
@@ -139,7 +124,7 @@ colspec
 command
 {
   display: inline;
-  font-style: italic;
+  font-style: normal;
 }
 
 computeroutput
@@ -191,13 +176,13 @@ editor
 email
 {
   display: inline;
-  font-style: italic;
+  font-style: normal;
 }
 
 emphasis
 {
   display: inline;
-  font-style: italic;
+  font-style: normal;
 }
 
 entry
@@ -223,7 +208,7 @@ figure
 filename
 {
   display: inline;
-  font-style: italic;
+  font-style: normal;
 }
 
 firstname
