@@ -3,7 +3,7 @@
 <!-- $Id: book.info.abstract.xml 640 2013-07-18 03:27:47Z netkiller $ -->
 <abstract id="abstract">
 	<title>我的系列文档</title>
-	<simplelist type='horiz' columns='6'>
+	<simplelist type='horiz' columns='5'>
 		<member>
 			<ulink url="../architect/index.html">Netkiller Architect 手札</ulink>
 		</member>
@@ -39,7 +39,7 @@
 		</member>
 		<member>
 			<ulink url="../shell/index.html">Netkiller Shell 手札</ulink>
-		</member>		
+		</member>
 		<member>
 			<ulink url="../security/index.html">Netkiller Security 手札</ulink>
 		</member>
@@ -107,8 +107,8 @@
 		</member>
 		<member>
 			<ulink url="../devops/index.html">Netkiller DevOps 手札</ulink>
-		</member>		
+		</member>
 	</simplelist>
-	
+
 
 </abstract>
