@@ -2,6 +2,7 @@
 <!-- $Id: book.preface.xml 616 2013-06-14 05:10:30Z netkiller $ -->
 <preface id="preface">
 	<title>自述</title>
+	<graphic format="png" fileref="../images/netkiller-ebook.jpg" srccredit="neo" width="400" />
 	<para>目前技术书籍的价格一路飙升，动则80，100，少则50，60. 技术书籍有时效性，随着技术的革新或淘汰，大批书记成为废纸垃圾。并且这些书技术内容雷同，相互抄袭，质量越来越差，甚至里面给出的例子错误百出，只能购买影印版，或者翻译的版本。 </para>
 	<para>在这种背景下我便萌生了自己写书的想法，资料主要来源是我的笔记与例子。我并不想出版，只为分享，所有我制作了基于CC License 发行的系列电子书。</para>
 	<para>本书注重例子，少理论，只要你对这例子一步一步操作，就会成功，会让你有成就感并能坚持学下去，因为很多人遇到障碍就会放弃，其实我就是这种人，只要让他看到希望，就能坚持下去。</para>
@@ -43,76 +44,104 @@
 
 	<section id="preface.contents">
 		<title>系列文档</title>
-
 		<para>下面是我多年积累下来的经验总结，整理成文档供大家参考:</para>
-		<sidebar>
-			<title>HTML 格式</title>
-			<para><ulink url="http://netkiller.github.com/home/technology.html" /></para>
-			<para><ulink url="http://netkiller.sourceforge.net/home/technology.html" />	</para>
-		</sidebar>
-		<sidebar id="htmlhelp">
-			<title>CHM 格式电子文档下载</title>
-			<para>
-				<ulink
-					url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" />
-			</para>
-		</sidebar>
-		<sidebar>
-			<title>PDF 格式</title>
-			<para>
-				<ulink url="http://www.scribd.com/neo_chen">Download PDF Document 下载PDF文档1</ulink>
-			</para>
-			<para>
-				<ulink url="http://www.docin.com/netkiller">Download PDF Document 下载PDF文档2</ulink>
-			</para>
-		</sidebar>
-		<sidebar>
-			<title>EPUB 格式</title>
-			<para><ulink url="http://netkiller.sourceforge.net/technology.html"></ulink></para>
-		</sidebar>
-		<sidebar>
-			<title>通过 GIT 镜像整个网站</title>
-			<para><ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink></para>
-			<para>$ git clone https://github.com/netkiller/netkiller.github.com.git</para>
-		</sidebar>
-		<sidebar>
-			<title>其他方式</title>
-			<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>	
-			<para>YUM 在线安装电子书</para>
-			<para><ulink url="http://netkiller.sourceforge.net/pub/repo/" /></para>
-			<screen>
-			<![CDATA[
-# cat >> /etc/yum.repos.d/netkiller.repo <<EOF
-[netkiller]
-name=Netkiller Free Books
-baseurl=http://netkiller.sourceforge.net/pub/repo/
-enabled=1
-gpgcheck=0
-gpgkey=
-EOF
-			]]>
-			</screen>
-			<para>查找包</para>
-			<screen>
-			<![CDATA[
-# yum search netkiller
+		<simplelist>
+			<member>
+				<ulink url="../architect/index.html">Netkiller Architect 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../developer/index.html">Netkiller Developer 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../php/index.html">Netkiller PHP 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../python/index.html">Netkiller Python 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../testing/index.html">Netkiller Testing 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../cryptography/index.html">Netkiller Cryptography 手札</ulink>
+			</member>
 
-netkiller-centos.x86_64 : Netkiller centos Cookbook
-netkiller-cryptography.x86_64 : Netkiller cryptography Cookbook
-netkiller-docbook.x86_64 : Netkiller docbook Cookbook
-netkiller-linux.x86_64 : Netkiller linux Cookbook
-netkiller-mysql.x86_64 : Netkiller mysql Cookbook
-netkiller-php.x86_64 : Netkiller php Cookbook
-netkiller-postgresql.x86_64 : Netkiller postgresql Cookbook
-netkiller-python.x86_64 : Netkiller python Cookbook
-netkiller-version.x86_64 : Netkiller version Cookbook	
-			]]>
-			</screen>
-			<para>安装包</para>
-			<screen>
-yum install netkiller-docbook		
-			</screen>
-		</sidebar>
+			<member>
+				<ulink url="../linux/index.html">Netkiller Linux 手札</ulink>
+			</member>
+
+			<member>
+				<ulink url="../debian/index.html">Netkiller Debian 手札</ulink>
+			</member>
+
+			<member>
+				<ulink url="../centos/index.html">Netkiller CentOS 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../freebsd/index.html">Netkiller FreeBSD 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../shell/index.html">Netkiller Shell 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../security/index.html">Netkiller Security 手札</ulink>
+			</member>
+
+			<member>
+				<ulink url="../www/index.html">Netkiller Web 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../monitoring/index.html">Netkiller Monitoring 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../storage/index.html">Netkiller Storage 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../mail/index.html">Netkiller Mail 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../docbook/index.html">Netkiller Docbook 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../version/index.html">Netkiller Version 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../database/index.html">Netkiller Database 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../postgresql/index.html">Netkiller PostgreSQL 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../mysql/index.html">Netkiller MySQL 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../nosql/index.html">Netkiller NoSQL 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../ldap/index.html">Netkiller LDAP 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../network/index.html">Netkiller Network 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../cisco/index.html">Netkiller Cisco IOS 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../h3c/index.html">Netkiller H3C 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../multimedia/index.html">Netkiller Multimedia 手札</ulink>
+			</member>
+
+			<!-- <member> <ulink url="../management/index.html">Netkiller Management 
+				手札</ulink> </member> <member> <ulink url="../oss/index.html">Netkiller 开源软件 
+				手札</ulink> </member> -->
+			<member>
+				<ulink url="../perl/index.html">Netkiller Perl 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../radio/index.html">Netkiller Amateur Radio 手札</ulink>
+			</member>
+		</simplelist>
 <!--
 		<orderedlist>
 			<title>文档内容简介:</title>
@@ -229,9 +258,85 @@ yum install netkiller-docbook
 		<para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para>
  -->
 	</section>
-<!--
+
 	<section id="preface.download">
-		<title>获取文档</title>
+		<title>文档下载</title>
+		<sidebar>
+			<title>HTML 格式</title>
+			<para><ulink url="http://netkiller.github.com/home/technology.html" /></para>
+			<para><ulink url="http://netkiller.sourceforge.net/home/technology.html" />	</para>
+			<para>你可以使用镜像下载获得HTML文档，例如使用wget软件下载整个网站</para>
+			<screen>
+$ wget -m http://netkiller.github.io/index.html
+			</screen>
+			<para>指定下载</para>
+			<screen>
+$ wget -m http://netkiller.github.io/centos/index.html
+			</screen>
+		</sidebar>
+		<sidebar id="htmlhelp">
+			<title>CHM 格式电子文档下载</title>
+			<para>
+				<ulink
+					url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" />
+			</para>
+		</sidebar>
+		<sidebar>
+			<title>PDF 格式</title>
+			<para>
+				<ulink url="http://www.scribd.com/neo_chen">Download PDF Document 下载PDF文档1</ulink>
+			</para>
+			<para>
+				<ulink url="http://www.docin.com/netkiller">Download PDF Document 下载PDF文档2</ulink>
+			</para>
+		</sidebar>
+		<sidebar>
+			<title>EPUB 格式</title>
+			<para><ulink url="http://netkiller.sourceforge.net/technology.html"></ulink></para>
+		</sidebar>
+		<sidebar>
+			<title>通过 GIT 镜像整个网站</title>
+			<para><ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink></para>
+			<para>$ git clone https://github.com/netkiller/netkiller.github.com.git</para>
+		</sidebar>
+		<sidebar>
+			<title>其他方式</title>
+			<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>	
+			<para>YUM 在线安装电子书</para>
+			<para><ulink url="http://netkiller.sourceforge.net/pub/repo/" /></para>
+			<screen>
+			<![CDATA[
+# cat >> /etc/yum.repos.d/netkiller.repo <<EOF
+[netkiller]
+name=Netkiller Free Books
+baseurl=http://netkiller.sourceforge.net/pub/repo/
+enabled=1
+gpgcheck=0
+gpgkey=
+EOF
+			]]>
+			</screen>
+			<para>查找包</para>
+			<screen>
+			<![CDATA[
+# yum search netkiller
+
+netkiller-centos.x86_64 : Netkiller centos Cookbook
+netkiller-cryptography.x86_64 : Netkiller cryptography Cookbook
+netkiller-docbook.x86_64 : Netkiller docbook Cookbook
+netkiller-linux.x86_64 : Netkiller linux Cookbook
+netkiller-mysql.x86_64 : Netkiller mysql Cookbook
+netkiller-php.x86_64 : Netkiller php Cookbook
+netkiller-postgresql.x86_64 : Netkiller postgresql Cookbook
+netkiller-python.x86_64 : Netkiller python Cookbook
+netkiller-version.x86_64 : Netkiller version Cookbook	
+			]]>
+			</screen>
+			<para>安装包</para>
+			<screen>
+yum install netkiller-docbook		
+			</screen>
+		</sidebar>		
 	</section>
- -->
+
 </preface>
