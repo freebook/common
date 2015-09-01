@@ -1,7 +1,7 @@
 <legalnotice id="legalnotice">
 	<title>版权声明</title>
 	<para>转载请与作者联系，转载时请务必标明文章原始出处和作者信息及本声明。</para>
-	<simplelist type='horiz' columns='2'>
+	<simplelist type='horiz' columns='4'>
 		<member>
 		<ulink url="http://creativecommons.org/licenses/by/3.0/">
 			<graphic  format="png" fileref="/images/by-nc-sa.png" srccredit="neo" width="180" />
@@ -20,10 +20,21 @@
 				</member>
 			</simplelist>
 		</member>
+		<member>
+			<graphic  format="png" fileref="/images/weixin.jpg" srccredit="neo" width="80" />
+		</member>
+		<member>
+			<para>微信扫描二维码进入 Netkiller 微信订阅号 </para>
+			<para>QQ群：128659835 请注明“读者”</para>
+		</member>
 	</simplelist>
 	<para></para>
 </legalnotice>
 <!--
+<member>
+			<para></para>	
+		</member>
+
 <releaseinfo>
 	<para>文档最近一次更新于 <date>{latest}</date></para>
 </releaseinfo>
