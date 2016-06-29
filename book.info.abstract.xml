@@ -34,18 +34,15 @@
 		<member>
 			<ulink url="../project/index.html">Netkiller Project 手札</ulink>
 		</member>
-<!--
-			<member>
-				<ulink url="../management/index.html">Netkiller Management 手札</ulink>
-			</member>
--->
-			<member>
-				<ulink url="../java/index.html">Netkiller Java 手札</ulink>
-			</member>
- 
+		
 		<member>
-			<ulink url="../devops/index.html">Netkiller DevOps 手札</ulink>
+			<ulink url="../java/index.html">Netkiller Java 手札</ulink>
 		</member>
+
+		<member>
+			<ulink url="../management/index.html">Netkiller Management 手札</ulink>
+		</member>
+
 	</simplelist>
 
 	<para>操作系统</para>
@@ -124,6 +121,10 @@
 		</member>
 	</simplelist>
 
-	<para>您可以使用<ulink url="ibook.epub">iBook</ulink>阅读当前文档</para>
+	<para>
+		您可以使用
+		<ulink url="ibook.epub">iBook</ulink>
+		阅读当前文档
+	</para>
 
 </abstract>
