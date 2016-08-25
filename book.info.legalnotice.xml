@@ -21,7 +21,7 @@
 			</simplelist>
 		</member>
 		<member>
-			<graphic  format="png" fileref="/images/weixin.jpg" srccredit="neo" width="80" />
+			<ulink url="/images/weixin.jpg"><graphic  format="png" fileref="/images/weixin.jpg" srccredit="neo" width="80" /></ulink>
 		</member>
 		<member>
 			<para>微信扫描二维码进入 Netkiller 微信订阅号 </para>
