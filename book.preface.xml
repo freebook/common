@@ -338,5 +338,21 @@ yum install netkiller-docbook
 			</screen>
 		</sidebar>		
 	</section>
-
+	<section>
+		<title>打赏（Donations）</title>
+		<para>If you like this documents, please make a donation to support the	authors' efforts. Thank you! </para>
+	<section>
+		<title>微信（Wechat）</title>
+		<para><graphic  format="png" fileref="/images/wechat/459776289764510664.jpg" srccredit="neo" width="400"/></para>
+	</section>
+	<section>
+		<title>支付宝（Alipay）</title>
+		<para><graphic  format="png" fileref="/images/alipay/270435415900516688.jpg" srccredit="neo" width="400"/></para>
+		<!-- <para><ulink url="https://me.alipay.com/netkiller" /></para> -->
+	</section>
+	<section id="bank">
+		<title>Bank</title>
+		<para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para>
+	</section>
+	</section>
 </preface>
