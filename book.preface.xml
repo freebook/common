@@ -68,14 +68,6 @@
 			<member>
 				<ulink url="../linux/index.html">Netkiller Linux 手札</ulink>
 			</member>
-
-			<member>
-				<ulink url="../debian/index.html">Netkiller Debian 手札</ulink>
-			</member>
-
-			<member>
-				<ulink url="../centos/index.html">Netkiller CentOS 手札</ulink>
-			</member>
 			<member>
 				<ulink url="../freebsd/index.html">Netkiller FreeBSD 手札</ulink>
 			</member>
@@ -351,7 +343,7 @@ yum install netkiller-docbook
 		<!-- <para><ulink url="https://me.alipay.com/netkiller" /></para> -->
 	</section>
 	<section id="bank">
-		<title>Bank</title>
+		<title>银行(Bank)</title>
 		<para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para>
 	</section>
 	</section>
