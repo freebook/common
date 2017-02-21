@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section>
+	<title>打赏（Donations）</title>
+	<para>If you like this documents, please make a donation to support the authors' efforts. Thank you! </para>
+	<para>您可以通过微信，支付宝，贝宝给作者打赏。</para>
+	<section>
+		<title>微信（Wechat）</title>
+		<para>
+			<graphic format="png" fileref="/images/wechat/459776289764510664.jpg" srccredit="neo" width="400" />
+		</para>
+	</section>
+	<section>
+		<title>支付宝（Alipay）</title>
+		<para>
+			<graphic format="png" fileref="/images/alipay/270435415900516688.jpg" srccredit="neo" width="400" />
+		</para>
+		<!-- <para><ulink url="https://me.alipay.com/netkiller" /></para> -->
+	</section>
+	<section id="paypal">
+		<title>PayPal Donations</title>
+		<para><ulink url="https://www.paypal.me/netkiller"/></para>
+	</section>
+	<section id="bank">
+		<title>银行(Bank)</title>
+		<para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para>
+	</section>
+</section>

@@ -124,9 +124,7 @@
 				<ulink url="../multimedia/index.html">Netkiller Multimedia 手札</ulink>
 			</member>
 
-			<!-- <member> <ulink url="../management/index.html">Netkiller Management 
-				手札</ulink> </member> <member> <ulink url="../oss/index.html">Netkiller 开源软件 
-				手札</ulink> </member> -->
+			<!-- <member> <ulink url="../management/index.html">Netkiller Management 手札</ulink> </member> <member> <ulink url="../oss/index.html">Netkiller 开源软件 手札</ulink> </member> -->
 			<member>
 				<ulink url="../perl/index.html">Netkiller Perl 手札</ulink>
 			</member>
@@ -134,74 +132,12 @@
 				<ulink url="../radio/index.html">Netkiller Amateur Radio 手札</ulink>
 			</member>
 		</simplelist>
-<!--
-		<orderedlist>
-			<title>文档内容简介:</title>
-			<listitem>
-				<para>Network</para>
-			</listitem>
-			<listitem>
-				<para>Security</para>
-			</listitem>
-			<listitem>
-				<para>Web Application</para>
-			</listitem>
-			<listitem>
-				<para>Database</para>
-			</listitem>
-			<listitem>
-				<para>Storage And Backup/Restore</para>
-			</listitem>
-			<listitem>
-				<para>Cluster</para>
-			</listitem>
-			<listitem>
-				<para>Developer</para>
-			</listitem>
-		</orderedlist>
-		<sidebar id="preface.reader">
-			<title>Audience(读者对象)</title>
-			<para>This book is intended primarily for Linux system administrators
-				who are familiar with the following activities:</para>
-			<orderedlist>
-				<title>Audience</title>
-				<listitem>
-					<para>Linux system administration procedures, including kernel
-						configuration</para>
-				</listitem>
-				<listitem>
-					<para>Installation and configuration of cluster, such as load
-						balancing, High Availability, </para>
-				</listitem>
-				<listitem>
-					<para>Installation and configuration of shared storage networks,
-						such as Fibre Channel SANs</para>
-				</listitem>
-				<listitem>
-					<para>Installation and configuration of web server, such as apache,
-						nginx, lighttpd, tomcat/resin ... </para>
-				</listitem>
-			</orderedlist>
-
-			<para>本文档的读者对象:</para>
-			<para>文档面向有所有读者。您可以选读您所需要的章节,无需全篇阅读,因为有些章节不一定对你有用,用得着就翻来看看,暂时用不到的可以不看.
-			</para>
-			<orderedlist>
-				<title>大体分来读者可以分为几类:</title>
-				<listitem>
-					<para>架构工程师</para>
-				</listitem>
-				<listitem>
-					<para>系统管理员 </para>
-				</listitem>
-				<listitem>
-					<para>系统支持,部署工程师</para>
-				</listitem>
-			</orderedlist>
-			<para>不管是谁,做什么的,我希望通过阅读这篇文档都能对你有所帮助。</para>
-
-		</sidebar>
- -->
+		<!-- <orderedlist> <title>文档内容简介:</title> <listitem> <para>Network</para> </listitem> <listitem> <para>Security</para> </listitem> <listitem> <para>Web Application</para> </listitem> <listitem> <para>Database</para> </listitem> <listitem> <para>Storage And 
+			Backup/Restore</para> </listitem> <listitem> <para>Cluster</para> </listitem> <listitem> <para>Developer</para> </listitem> </orderedlist> <sidebar id="preface.reader"> <title>Audience(读者对象)</title> <para>This book is intended primarily for Linux system administrators 
+			who are familiar with the following activities:</para> <orderedlist> <title>Audience</title> <listitem> <para>Linux system administration procedures, including kernel configuration</para> </listitem> <listitem> <para>Installation and configuration of cluster, 
+			such as load balancing, High Availability, </para> </listitem> <listitem> <para>Installation and configuration of shared storage networks, such as Fibre Channel SANs</para> </listitem> <listitem> <para>Installation and configuration of web server, such as apache, 
+			nginx, lighttpd, tomcat/resin ... </para> </listitem> </orderedlist> <para>本文档的读者对象:</para> <para>文档面向有所有读者。您可以选读您所需要的章节,无需全篇阅读,因为有些章节不一定对你有用,用得着就翻来看看,暂时用不到的可以不看. </para> <orderedlist> <title>大体分来读者可以分为几类:</title> <listitem> <para>架构工程师</para> </listitem> <listitem> 
+			<para>系统管理员 </para> </listitem> <listitem> <para>系统支持,部署工程师</para> </listitem> </orderedlist> <para>不管是谁,做什么的,我希望通过阅读这篇文档都能对你有所帮助。</para> </sidebar> -->
 
 	</section>
 	&preface.about.me.xml;
@@ -217,60 +153,57 @@
 				讨论
 			</para>
 
-				<simplelist>
-					<member>
-至读者：
-					</member>
-					<member>
-我不知道什么时候，我不再更新文档或者退出IT行业去从事其他工作，我必须给这些文档找一个归宿，让他能持续更新下去。
-					</member>
-					<member>
-我想捐赠给某些基金会继续运转，或者建立一个团队维护它。
-					</member>
-					<member>
-我用了10年时间坚持不停地写作，持续更新，才有今天你看到的《Netkiller 手扎》系列文档，在中国能坚持10年，同时没有任何收益的技术类文档，是非常不容易的。
-					</member>
-					<member>
-有很多时候想放弃，看到外国读者的支持与国内社区的影响，我坚持了下来。
-					</member>
-					<member>
-中国开源事业需要各位参与，不要成为局外人，不要让外国人说：中国对开源索取无度，贡献却微乎其微。
-					</member>
-					<member>
-我们参与内核的开发还比较遥远，但是进个人能力，写一些文档还是可能的。
-					</member>
+			<simplelist>
+				<member>
+					至读者：
+				</member>
+				<member>
+					我不知道什么时候，我不再更新文档或者退出IT行业去从事其他工作，我必须给这些文档找一个归宿，让他能持续更新下去。
+				</member>
+				<member>
+					我想捐赠给某些基金会继续运转，或者建立一个团队维护它。
+				</member>
+				<member>
+					我用了10年时间坚持不停地写作，持续更新，才有今天你看到的《Netkiller 手扎》系列文档，在中国能坚持10年，同时没有任何收益的技术类文档，是非常不容易的。
+				</member>
+				<member>
+					有很多时候想放弃，看到外国读者的支持与国内社区的影响，我坚持了下来。
+				</member>
+				<member>
+					中国开源事业需要各位参与，不要成为局外人，不要让外国人说：中国对开源索取无度，贡献却微乎其微。
+				</member>
+				<member>
+					我们参与内核的开发还比较遥远，但是进个人能力，写一些文档还是可能的。
+				</member>
 
-				</simplelist>
+			</simplelist>
 		</sidebar>
-<!--
-		<para>支持这个项目(Support this project)</para>
-		<para>
-			<ulink url="http://sourceforge.net/donate/index.php?group_id=306976">Donations</ulink>
-		</para>
-		<para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para>
- -->
+		<!-- <para>支持这个项目(Support this project)</para> <para> <ulink url="http://sourceforge.net/donate/index.php?group_id=306976">Donations</ulink> </para> <para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para> -->
 	</section>
 
 	<section id="preface.download">
 		<title>文档下载</title>
 		<sidebar>
 			<title>HTML 格式</title>
-			<para><ulink url="http://netkiller.github.com/home/technology.html" /></para>
-			<para><ulink url="http://netkiller.sourceforge.net/home/technology.html" />	</para>
+			<para>
+				<ulink url="http://netkiller.github.com/home/technology.html" />
+			</para>
+			<para>
+				<ulink url="http://netkiller.sourceforge.net/home/technology.html" />
+			</para>
 			<para>你可以使用镜像下载获得HTML文档，例如使用wget软件下载整个网站</para>
 			<screen>
-$ wget -m http://netkiller.github.io/index.html
+				$ wget -m http://netkiller.github.io/index.html
 			</screen>
 			<para>指定下载</para>
 			<screen>
-$ wget -m http://netkiller.github.io/centos/index.html
+				$ wget -m http://netkiller.github.io/centos/index.html
 			</screen>
 		</sidebar>
 		<sidebar id="htmlhelp">
 			<title>CHM 格式电子文档下载</title>
 			<para>
-				<ulink
-					url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" />
+				<ulink url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" />
 			</para>
 		</sidebar>
 		<sidebar>
@@ -284,18 +217,24 @@ $ wget -m http://netkiller.github.io/centos/index.html
 		</sidebar>
 		<sidebar>
 			<title>EPUB 格式</title>
-			<para><ulink url="http://netkiller.sourceforge.net/technology.html"></ulink></para>
+			<para>
+				<ulink url="http://netkiller.sourceforge.net/technology.html"></ulink>
+			</para>
 		</sidebar>
 		<sidebar>
 			<title>通过 GIT 镜像整个网站</title>
-			<para><ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink></para>
+			<para>
+				<ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink>
+			</para>
 			<para>$ git clone https://github.com/netkiller/netkiller.github.com.git</para>
 		</sidebar>
 		<sidebar>
 			<title>其他方式</title>
-			<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>	
+			<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>
 			<para>YUM 在线安装电子书</para>
-			<para><ulink url="http://netkiller.sourceforge.net/pub/repo/" /></para>
+			<para>
+				<ulink url="http://netkiller.sourceforge.net/pub/repo/" />
+			</para>
 			<screen>
 			<![CDATA[
 # cat >> /etc/yum.repos.d/netkiller.repo <<EOF
@@ -326,25 +265,9 @@ netkiller-version.x86_64 : Netkiller version Cookbook
 			</screen>
 			<para>安装包</para>
 			<screen>
-yum install netkiller-docbook		
+				yum install netkiller-docbook
 			</screen>
-		</sidebar>		
+		</sidebar>
 	</section>
-	<section>
-		<title>打赏（Donations）</title>
-		<para>If you like this documents, please make a donation to support the	authors' efforts. Thank you! </para>
-	<section>
-		<title>微信（Wechat）</title>
-		<para><graphic  format="png" fileref="/images/wechat/459776289764510664.jpg" srccredit="neo" width="400"/></para>
-	</section>
-	<section>
-		<title>支付宝（Alipay）</title>
-		<para><graphic  format="png" fileref="/images/alipay/270435415900516688.jpg" srccredit="neo" width="400"/></para>
-		<!-- <para><ulink url="https://me.alipay.com/netkiller" /></para> -->
-	</section>
-	<section id="bank">
-		<title>银行(Bank)</title>
-		<para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para>
-	</section>
-	</section>
+	&section.donations.xml;
 </preface>
