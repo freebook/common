@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY book.info.author.xml		SYSTEM "../common/book.info.author.xml">
+<!ENTITY book.info.legalnotice.xml 	SYSTEM "../common/book.info.legalnotice.xml">
+<!-- <!ENTITY book.info.abstract.xml 	SYSTEM "../common/book.info.abstract.xml"> -->
+<!ENTITY book.preface.xml           SYSTEM "../common/book.preface.xml">
+<!ENTITY preface.about.me.xml       SYSTEM "../common/about.me.xml">
+<!ENTITY book.dedication.xml       	SYSTEM "../common/book.dedication.xml">
+<!ENTITY section.donations.xml     	SYSTEM "../common/section.donations.xml">
