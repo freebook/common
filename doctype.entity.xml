@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY Neo "http://netkiller.sf.net/">
+<!ENTITY BG7NYT "&Neo;">
+<!ENTITY Netkiller "<emphasis><trademark>Netkiller</trademark></emphasis>">
+<!ENTITY OSCM "<ulink url='https://github.com/oscm/shell'>Netkiller OSCM</ulink>">
+
 <!ENTITY book.info.author.xml		SYSTEM "../common/book.info.author.xml">
 <!ENTITY book.info.legalnotice.xml 	SYSTEM "../common/book.info.legalnotice.xml">
 <!-- <!ENTITY book.info.abstract.xml 	SYSTEM "../common/book.info.abstract.xml"> -->
