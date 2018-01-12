@@ -124,7 +124,8 @@
 				<ulink url="../multimedia/index.html">Netkiller Multimedia 手札</ulink>
 			</member>
 
-			<!-- <member> <ulink url="../management/index.html">Netkiller Management 手札</ulink> </member> <member> <ulink url="../oss/index.html">Netkiller 开源软件 手札</ulink> </member> -->
+			<member> <ulink url="../management/index.html">Netkiller Management 手札</ulink> </member> 
+			<member> <ulink url="../spring/index.html">Netkiller Spring 手札</ulink> </member> 
 			<member>
 				<ulink url="../perl/index.html">Netkiller Perl 手札</ulink>
 			</member>
@@ -268,6 +269,10 @@ netkiller-version.x86_64 : Netkiller version Cookbook
 				yum install netkiller-docbook
 			</screen>
 		</sidebar>
+		<section>
+			<title>Netkiller 手札 2017版电子书(epub,kindle,chm,pdf)</title>
+			<ulink url="http://www.netkiller.cn/download/2017/">Netkiller 手札 2017版</ulink>
+		</section>
 	</section>
 	&section.donations.xml;
 </preface>
