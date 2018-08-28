@@ -13,8 +13,10 @@
 
 		<affiliation>
 			<address>
-				<country>中国</country><state>广东省</state><city>深圳市</city><street>龙华新区民治街道溪山美地</street>
-				<postcode>518131</postcode>
+				<!-- <country>中国</country><state>广东省</state><city>深圳市</city><street>龙华新区民治街道溪山美地</street>
+				<postcode>518131</postcode> -->
+				<country>中国</country><state>广东省</state><city>深圳市</city><street>望海路半岛城邦三期</street>
+				<postcode>518067</postcode>
 				<phone>+86 13113668890</phone>
 				<!-- <fax>+86 755 29812080</fax> -->
 				<email>netkiller@msn.com</email>
