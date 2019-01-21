@@ -270,8 +270,12 @@ netkiller-version.x86_64 : Netkiller version Cookbook
 			</screen>
 		</sidebar>
 		<section>
-			<title>Netkiller 手札 2017版电子书(epub,kindle,chm,pdf)</title>
-			<ulink url="http://www.netkiller.cn/download/2017/">Netkiller 手札 2017版</ulink>
+			<title>Netkiller 手札 (epub,kindle,chm,pdf) 下载</title>
+			<simplelist>
+				<member><ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2018">Netkiller 手札 2018版</ulink></member>
+				<member><ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2017">Netkiller 手札 2017版</ulink></member>
+				<member><ulink url="http://www.netkiller.cn/download/2017/">Netkiller 手札 2017版</ulink></member>
+			</simplelist>
 		</section>
 	</section>
 	&section.donations.xml;
