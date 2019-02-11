@@ -124,8 +124,12 @@
 				<ulink url="../multimedia/index.html">Netkiller Multimedia 手札</ulink>
 			</member>
 
-			<member> <ulink url="../management/index.html">Netkiller Management 手札</ulink> </member> 
-			<member> <ulink url="../spring/index.html">Netkiller Spring 手札</ulink> </member> 
+			<member>
+				<ulink url="../management/index.html">Netkiller Management 手札</ulink>
+			</member>
+			<member>
+				<ulink url="../spring/index.html">Netkiller Spring 手札</ulink>
+			</member>
 			<member>
 				<ulink url="../perl/index.html">Netkiller Perl 手札</ulink>
 			</member>
@@ -133,12 +137,9 @@
 				<ulink url="../radio/index.html">Netkiller Amateur Radio 手札</ulink>
 			</member>
 		</simplelist>
-		<!-- <orderedlist> <title>文档内容简介:</title> <listitem> <para>Network</para> </listitem> <listitem> <para>Security</para> </listitem> <listitem> <para>Web Application</para> </listitem> <listitem> <para>Database</para> </listitem> <listitem> <para>Storage And 
-			Backup/Restore</para> </listitem> <listitem> <para>Cluster</para> </listitem> <listitem> <para>Developer</para> </listitem> </orderedlist> <sidebar id="preface.reader"> <title>Audience(读者对象)</title> <para>This book is intended primarily for Linux system administrators 
-			who are familiar with the following activities:</para> <orderedlist> <title>Audience</title> <listitem> <para>Linux system administration procedures, including kernel configuration</para> </listitem> <listitem> <para>Installation and configuration of cluster, 
-			such as load balancing, High Availability, </para> </listitem> <listitem> <para>Installation and configuration of shared storage networks, such as Fibre Channel SANs</para> </listitem> <listitem> <para>Installation and configuration of web server, such as apache, 
-			nginx, lighttpd, tomcat/resin ... </para> </listitem> </orderedlist> <para>本文档的读者对象:</para> <para>文档面向有所有读者。您可以选读您所需要的章节,无需全篇阅读,因为有些章节不一定对你有用,用得着就翻来看看,暂时用不到的可以不看. </para> <orderedlist> <title>大体分来读者可以分为几类:</title> <listitem> <para>架构工程师</para> </listitem> <listitem> 
-			<para>系统管理员 </para> </listitem> <listitem> <para>系统支持,部署工程师</para> </listitem> </orderedlist> <para>不管是谁,做什么的,我希望通过阅读这篇文档都能对你有所帮助。</para> </sidebar> -->
+		<!-- <orderedlist> <title>文档内容简介:</title> <listitem> <para>Network</para> </listitem> <listitem> <para>Security</para> </listitem> <listitem> <para>Web Application</para> </listitem> <listitem> <para>Database</para> </listitem> <listitem> <para>Storage And Backup/Restore</para> </listitem> <listitem> <para>Cluster</para> </listitem> <listitem> <para>Developer</para> </listitem> </orderedlist> <sidebar id="preface.reader"> <title>Audience(读者对象)</title> <para>This book is intended primarily for Linux system 
+			administrators who are familiar with the following activities:</para> <orderedlist> <title>Audience</title> <listitem> <para>Linux system administration procedures, including kernel configuration</para> </listitem> <listitem> <para>Installation and configuration of cluster, such as load balancing, High Availability, </para> </listitem> <listitem> <para>Installation and configuration of shared storage networks, such as Fibre Channel SANs</para> </listitem> <listitem> <para>Installation and configuration of web 
+			server, such as apache, nginx, lighttpd, tomcat/resin ... </para> </listitem> </orderedlist> <para>本文档的读者对象:</para> <para>文档面向有所有读者。您可以选读您所需要的章节,无需全篇阅读,因为有些章节不一定对你有用,用得着就翻来看看,暂时用不到的可以不看. </para> <orderedlist> <title>大体分来读者可以分为几类:</title> <listitem> <para>架构工程师</para> </listitem> <listitem> <para>系统管理员 </para> </listitem> <listitem> <para>系统支持,部署工程师</para> </listitem> </orderedlist> <para>不管是谁,做什么的,我希望通过阅读这篇文档都能对你有所帮助。</para> </sidebar> -->
 
 	</section>
 	&preface.about.me.xml;
@@ -183,60 +184,62 @@
 	</section>
 
 	<section id="preface.download">
-		<title>文档下载</title>
-		<sidebar>
-			<title>HTML 格式</title>
-			<para>
-				<ulink url="http://netkiller.github.com/home/technology.html" />
-			</para>
-			<para>
-				<ulink url="http://netkiller.sourceforge.net/home/technology.html" />
-			</para>
-			<para>你可以使用镜像下载获得HTML文档，例如使用wget软件下载整个网站</para>
+		<title>如何获得文档</title>
+		<!-- <sidebar> <title>HTML 格式</title> <para> <ulink url="http://netkiller.github.com/home/technology.html" /> </para> <para> <ulink url="http://netkiller.sourceforge.net/home/technology.html" /> </para> <para>你可以使用镜像下载获得HTML文档，例如使用wget软件下载整个网站</para> <screen> $ wget -m http://netkiller.github.io/index.html </screen> <para>指定下载</para> <screen> $ wget -m http://netkiller.github.io/centos/index.html </screen> </sidebar> <sidebar id="htmlhelp"> <title>CHM 格式电子文档下载</title> <para> <ulink url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" 
+			/> </para> </sidebar> <sidebar> <title>PDF 格式</title> <para> <ulink url="http://www.scribd.com/neo_chen">Download PDF Document 下载PDF文档1</ulink> </para> <para> <ulink url="http://www.docin.com/netkiller">Download PDF Document 下载PDF文档2</ulink> </para> </sidebar> <sidebar> <title>EPUB 格式</title> <para> <ulink url="http://netkiller.sourceforge.net/technology.html"></ulink> </para> </sidebar> -->
+
+		<section>
+			<title>下载 Netkiller 手札 (epub,kindle,chm,pdf)</title>
+			<simplelist>
+				<member>
+					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2019">Netkiller 手札 2019版</ulink>
+				</member>
+				<member>
+					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2018">Netkiller 手札 2018版</ulink>
+				</member>
+				<member>
+					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2017">Netkiller 手札 2017版</ulink>
+				</member>
+				<member>
+					<ulink url="http://www.netkiller.cn/download/2017/">Netkiller 手札 2017版</ulink>
+				</member>
+			</simplelist>
+		</section>
+		<section>
+			<title>镜像下载</title>
+			<para>整站下载</para>
 			<screen>
-				$ wget -m http://netkiller.github.io/index.html
+			<![CDATA[
+wget -m http://www.netkiller.cn/index.html			
+			]]>
 			</screen>
 			<para>指定下载</para>
 			<screen>
-				$ wget -m http://netkiller.github.io/centos/index.html
+			<![CDATA[
+wget -m wget -m http://www.netkiller.cn/linux/index.html			
+			]]>
 			</screen>
-		</sidebar>
-		<sidebar id="htmlhelp">
-			<title>CHM 格式电子文档下载</title>
-			<para>
-				<ulink url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" />
-			</para>
-		</sidebar>
-		<sidebar>
-			<title>PDF 格式</title>
-			<para>
-				<ulink url="http://www.scribd.com/neo_chen">Download PDF Document 下载PDF文档1</ulink>
-			</para>
-			<para>
-				<ulink url="http://www.docin.com/netkiller">Download PDF Document 下载PDF文档2</ulink>
-			</para>
-		</sidebar>
-		<sidebar>
-			<title>EPUB 格式</title>
-			<para>
-				<ulink url="http://netkiller.sourceforge.net/technology.html"></ulink>
-			</para>
-		</sidebar>
-		<sidebar>
-			<title>通过 GIT 镜像整个网站</title>
-			<para>
-				<ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink>
-			</para>
-			<para>$ git clone https://github.com/netkiller/netkiller.github.com.git</para>
-		</sidebar>
-		<sidebar>
-			<title>其他方式</title>
-			<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>
-			<para>YUM 在线安装电子书</para>
-			<para>
-				<ulink url="http://netkiller.sourceforge.net/pub/repo/" />
-			</para>
-			<screen>
+		</section>
+		<section>
+			<title>克隆 github 仓库</title>
+			<sidebar>
+				<title>通过 GIT 镜像整个网站</title>
+				<para>
+					<ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink>
+				</para>
+				<para>$ git clone https://github.com/netkiller/netkiller.github.com.git</para>
+			</sidebar>
+		</section>
+		<section>
+			<title>Yum 下载文档</title>
+			<sidebar>
+				<title>其他方式</title>
+				<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>
+				<para>YUM 在线安装电子书</para>
+				<para>
+					<ulink url="http://netkiller.sourceforge.net/pub/repo/" />
+				</para>
+				<screen>
 			<![CDATA[
 # cat >> /etc/yum.repos.d/netkiller.repo <<EOF
 [netkiller]
@@ -247,9 +250,9 @@ gpgcheck=0
 gpgkey=
 EOF
 			]]>
-			</screen>
-			<para>查找包</para>
-			<screen>
+				</screen>
+				<para>查找包</para>
+				<screen>
 			<![CDATA[
 # yum search netkiller
 
@@ -263,19 +266,14 @@ netkiller-postgresql.x86_64 : Netkiller postgresql Cookbook
 netkiller-python.x86_64 : Netkiller python Cookbook
 netkiller-version.x86_64 : Netkiller version Cookbook	
 			]]>
-			</screen>
-			<para>安装包</para>
-			<screen>
-				yum install netkiller-docbook
-			</screen>
-		</sidebar>
-		<section>
-			<title>Netkiller 手札 (epub,kindle,chm,pdf) 下载</title>
-			<simplelist>
-				<member><ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2018">Netkiller 手札 2018版</ulink></member>
-				<member><ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2017">Netkiller 手札 2017版</ulink></member>
-				<member><ulink url="http://www.netkiller.cn/download/2017/">Netkiller 手札 2017版</ulink></member>
-			</simplelist>
+				</screen>
+				<para>安装包</para>
+				<screen>
+				<![CDATA[
+yum install netkiller-docbook
+				]]>
+				</screen>
+			</sidebar>
 		</section>
 	</section>
 	&section.donations.xml;
