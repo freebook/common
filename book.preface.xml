@@ -288,10 +288,14 @@ yum install netkiller-docbook
 			<para>OSChina: <ulink url="http://my.oschina.net/neochen/" /></para>
 			<para>Facebook: <ulink url="https://www.facebook.com/bg7nyt" /></para>
 			<para>Flickr: <ulink url="http://www.flickr.com/photos/bg7nyt/" /></para>
-			<para>Twitter: <ulink url="http://twitter.com/bg7nyt" /></para>
-			<para>Digg: <ulink url="http://www.digg.com/netkiller" /></para>
+			
 			<para>Disqus: <ulink url="http://disqus.com/netkiller/" /></para>
 			<para>solidot: <ulink url="http://solidot.org/~netkiller/" /></para>
+			
+			<para>Reddit:	<ulink url="https://www.reddit.com/user/netkiller/" /></para>
+			<para>Digg: <ulink url="http://www.digg.com/netkiller" /></para>
+			<para>Twitter: <ulink url="http://twitter.com/bg7nyt" /></para>
+			
 			<para>weibo:	<ulink url="http://weibo.com/bg7nyt">http://weibo.com/bg7nyt</ulink></para>
 		</sidebar>
         <para></para>
@@ -335,7 +339,7 @@ yum install netkiller-docbook
 			<para><ulink url="http://netkiller.sourceforge.net/"></ulink></para>
 			<para>Yahoo/AIM/GTalk: bg7nyt</para>
 			<para>IRC: irc://irc.freenode.net /nickname netkiller or neo</para>
-			<para>163 Blog:	<ulink url="http://t.163.com/netkiller" /></para>
+			
 			<para>ITEYE: <ulink url="http://netkiller-github-com.iteye.com" /></para>
 			<para>51CTO: <ulink url="http://bg7nyt.blog.51cto.com/" />|<ulink url="http://g.51cto.com/netkiller" /></para>
 		 -->
