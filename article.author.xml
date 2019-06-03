@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<author>
+	<honorific>Mr</honorific>
+	<firstname>Neo Chen</firstname>
+	<surname>(陈景峯)</surname>
+	<lineage>netkiller, BG7NYT</lineage>
+	<affiliation>
+		<!-- <address> <country>中国</country> <state>广东省</state> <city>深圳市</city> <street>龙华新区民治街道溪山美地</street> <postcode>518131</postcode> <phone>+86 13113668890</phone> <fax>+86 755 29812080</fax> <email>netkiller@msn.com</email> </address> -->
+		<address>
+			<country>中国</country>
+			<state>广东省</state>
+			<city>深圳市</city>
+			<street>望海路半岛城邦三期</street>
+			<postcode>518067</postcode>
+			<phone>+86 13113668890</phone>
+			<email>netkiller@msn.com</email>
+		</address>
 
-	<author>
-		<honorific>Mr</honorific>
-		<firstname>Neo Chen</firstname>
-		<surname>(陈景峯)</surname>
-		<lineage>netkiller, BG7NYT</lineage>
-		<affiliation>
-			<address>
-				<country>中国</country><state>广东省</state><city>深圳市</city><street>龙华新区民治街道溪山美地</street>
-				<postcode>518131</postcode>
-				<phone>+86 13113668890</phone>
-				<!-- <fax>+86 755 29812080</fax> -->
-				<email>netkiller@msn.com</email>
-			</address>
-		</affiliation>
-	</author>
+		<shortaffil>MMDVM Hotspot: </shortaffil>
+		<jobtitle></jobtitle>
+		<orgname>YSF80337 - CN China 1 - W24166/TG46001</orgname>
+		<orgdiv>BM_China_46001 - DMR Radio ID 4600441</orgdiv>
+	</affiliation>
+</author>
