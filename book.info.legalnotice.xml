@@ -3,14 +3,14 @@
 	<para>转载请与作者联系，转载时请务必标明文章原始出处和作者信息及本声明。</para>
 	<simplelist type='horiz' columns='4'>
 		<member>
-		<ulink url="http://creativecommons.org/licenses/by/3.0/">
-			<graphic  format="png" fileref="/images/by-nc-sa.png" srccredit="neo" width="180" />
-		</ulink>
+			<ulink url="http://creativecommons.org/licenses/by/3.0/">
+				<graphic format="png" fileref="/images/by-nc-sa.png" srccredit="neo" width="180" />
+			</ulink>
 		</member>
 		<member>
 			<simplelist>
 				<member>
-					<ulink url="http://www.netkiller.cn">http://www.netkiller.cn</ulink>	
+					<ulink url="http://www.netkiller.cn">http://www.netkiller.cn</ulink>
 				</member>
 				<member>
 					<ulink url="http://netkiller.github.io/">http://netkiller.github.io</ulink>
@@ -21,7 +21,9 @@
 			</simplelist>
 		</member>
 		<member>
-			<ulink url="/images/weixin.jpg"><graphic  format="png" fileref="/images/weixin.jpg" srccredit="neo" width="80" /></ulink>
+			<ulink url="/images/weixin.jpg">
+				<graphic format="png" fileref="/images/weixin.jpg" srccredit="neo" width="80" />
+			</ulink>
 		</member>
 		<member>
 			<simplelist>
@@ -33,11 +35,13 @@
 	</simplelist>
 	<para></para>
 </legalnotice>
-<!--
-
-<para></para>	
 
 <releaseinfo>
-	<para>文档最近一次更新于 <date>{latest}</date></para>
+	<para>
+		电子书最近一次更新于
+		<date><?dbtimestamp format="Y-m-d H:M:S"?>
+		</date>
+		.
+	</para>
 </releaseinfo>
--->
+
