@@ -6,154 +6,49 @@
 	<para>目前技术书籍的价格一路飙升，动则￥80，￥100，少则￥50，￥60. 技术书籍有时效性，随着技术的革新或淘汰，大批书记成为废纸垃圾。并且这些书技术内容雷同，相互抄袭，质量越来越差，甚至里面给出的例子错误百出，只能购买影印版，或者翻译的版本。 </para>
 	<para>在这种背景下我便萌生了自己写书的想法，资料主要来源是我的笔记与例子。我并不想出版，只为分享，所有我制作了基于CC License 发行的系列电子书。</para>
 	<para>本书注重例子，少理论（捞干货），只要你对着例子一步一步操作，就会成功，会让你有成就感并能坚持学下去，因为很多人遇到障碍就会放弃，其实我就是这种人，只要让他看到希望，就能坚持下去。</para>
-	<para>
-		<emphasis>为什么写这篇文章</emphasis>
-	</para>
-	<para>有很多想法,工作中也用不到所以未能实现，所以想写出来,和大家分享.有一点写一点,写得也不好,只要能看懂就行,就当学习笔记了.
-	</para>
-	<para>开始零零碎碎写过一些文档，也向维基百科供过稿，但维基经常被ZF封锁，后来发现sf.net可以提供主机存放文档，便做了迁移。并开始了我的写作生涯。
-	</para>
-	<para>这篇文档是作者10年来对工作的总结,是作者一点一滴的积累起来的，有些笔记已经丢失，所以并不完整。</para>
-	<para>因为工作太忙整理比较缓慢。目前的工作涉及面比较窄所以新文档比较少。</para>
-	<para>我现在花在技术上的时间越来越少，兴趣转向摄影，无线电。也想写写摄影方面的心得体会。</para>
 
-	<para>
-		<emphasis>写作动力:</emphasis>
-	</para>
-	<para>曾经在网上看到外国开源界对中国的评价，中国人对开源索取无度，但贡献却微乎其微.这句话一直记在我心中，发誓要为中国开源事业做我仅有的一点微薄贡献
-	</para>
-	<para>另外写文档也是知识积累，还可以增加在圈内的影响力.</para>
-	<para>人跟动物的不同,就是人类可以把自己学习的经验教给下一代人.下一代在上一代的基础上再创新,不断积累才有今天.</para>
-	<para>所以我把自己的经验写出来,可以让经验传承</para>
-
-	<para>
-		<emphasis>没有内容的章节:</emphasis>
-	</para>
-	<para>目前我自己一人维护所有文档，写作时间有限，当我发现一个好主题就会加入到文档中，待我有时间再完善章节，所以你会发现很多章节是空无内容的.
-	</para>
-	<para>文档目前几乎是流水帐试的写作，维护量很大，先将就着看吧.</para>
-	<para>
-		<simplelist>
-			<member>我想到哪写到哪,你会发现文章没一个中心,今天这里写点,明天跳过本章写其它的.</member>
-			<member>文中例子绝对多,对喜欢复制然后粘贴朋友很有用,不用动手写,也省时间.</member>
-			<member>理论的东西,网上大把,我这里就不写了,需要可以去网上查.</member>
-			<member>我爱写错别字,还有一些是打错的,如果发现请指正.</member>
-			<member>文中大部分试验是在Debian/Ubuntu/Redhat AS上完成.</member>
-		</simplelist>
-	</para>
-
-	<section id="preface.contents">
-		<title>系列文档</title>
-		<para>下面是我多年积累下来的经验总结，整理成文档供大家参考:</para>
-		<simplelist>
-			<member>
-				<ulink url="../architect/index.html">Netkiller Architect 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../developer/index.html">Netkiller Developer 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../php/index.html">Netkiller PHP 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../python/index.html">Netkiller Python 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../testing/index.html">Netkiller Testing 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../cryptography/index.html">Netkiller Cryptography 手札</ulink>
-			</member>
-
-			<member>
-				<ulink url="../linux/index.html">Netkiller Linux 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../freebsd/index.html">Netkiller FreeBSD 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../shell/index.html">Netkiller Shell 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../security/index.html">Netkiller Security 手札</ulink>
-			</member>
-
-			<member>
-				<ulink url="../www/index.html">Netkiller Web 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../monitoring/index.html">Netkiller Monitoring 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../storage/index.html">Netkiller Storage 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../mail/index.html">Netkiller Mail 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../docbook/index.html">Netkiller Docbook 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../version/index.html">Netkiller Version 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../database/index.html">Netkiller Database 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../postgresql/index.html">Netkiller PostgreSQL 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../mysql/index.html">Netkiller MySQL 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../nosql/index.html">Netkiller NoSQL 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../ldap/index.html">Netkiller LDAP 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../network/index.html">Netkiller Network 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../cisco/index.html">Netkiller Cisco IOS 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../h3c/index.html">Netkiller H3C 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../multimedia/index.html">Netkiller Multimedia 手札</ulink>
-			</member>
-
-			<member>
-				<ulink url="../management/index.html">Netkiller Management 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../spring/index.html">Netkiller Spring 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../perl/index.html">Netkiller Perl 手札</ulink>
-			</member>
-			<member>
-				<ulink url="../radio/index.html">Netkiller Amateur Radio 手札</ulink>
-			</member>
-		</simplelist>
-		<!-- <orderedlist> <title>文档内容简介:</title> <listitem> <para>Network</para> </listitem> <listitem> <para>Security</para> </listitem> <listitem> <para>Web Application</para> </listitem> <listitem> <para>Database</para> </listitem> <listitem> <para>Storage And Backup/Restore</para> </listitem> <listitem> <para>Cluster</para> </listitem> <listitem> <para>Developer</para> </listitem> </orderedlist> <sidebar id="preface.reader"> <title>Audience(读者对象)</title> <para>This book is intended primarily for Linux system 
-			administrators who are familiar with the following activities:</para> <orderedlist> <title>Audience</title> <listitem> <para>Linux system administration procedures, including kernel configuration</para> </listitem> <listitem> <para>Installation and configuration of cluster, such as load balancing, High Availability, </para> </listitem> <listitem> <para>Installation and configuration of shared storage networks, such as Fibre Channel SANs</para> </listitem> <listitem> <para>Installation and configuration of web 
-			server, such as apache, nginx, lighttpd, tomcat/resin ... </para> </listitem> </orderedlist> <para>本文档的读者对象:</para> <para>文档面向有所有读者。您可以选读您所需要的章节,无需全篇阅读,因为有些章节不一定对你有用,用得着就翻来看看,暂时用不到的可以不看. </para> <orderedlist> <title>大体分来读者可以分为几类:</title> <listitem> <para>架构工程师</para> </listitem> <listitem> <para>系统管理员 </para> </listitem> <listitem> <para>系统支持,部署工程师</para> </listitem> </orderedlist> <para>不管是谁,做什么的,我希望通过阅读这篇文档都能对你有所帮助。</para> </sidebar> -->
-
-	</section>
-	&preface.about.me.xml;
 	<section id="reader">
 		<title>写给读者</title>
 		<subtitle></subtitle>
+		<para>
+			<emphasis>为什么写这篇文章</emphasis>
+		</para>
+		<para>有很多想法,工作中也用不到所以未能实现，所以想写出来,和大家分享.有一点写一点,写得也不好,只要能看懂就行,就当学习笔记了.
+		</para>
+		<para>开始零零碎碎写过一些文档，也向维基百科供过稿，但维基经常被ZF封锁，后来发现sf.net可以提供主机存放文档，便做了迁移。并开始了我的写作生涯。
+		</para>
+		<para>这篇文档是作者20年来对工作的总结,是作者一点一滴的积累起来的，有些笔记已经丢失，所以并不完整。</para>
+		<para>因为工作太忙整理比较缓慢。目前的工作涉及面比较窄所以新文档比较少。</para>
+		<para>我现在花在技术上的时间越来越少，兴趣转向摄影，无线电。也想写写摄影方面的心得体会。</para>
+
+		<para>
+			<emphasis>写作动力:</emphasis>
+		</para>
+		<para>曾经在网上看到外国开源界对中国的评价，中国人对开源索取无度，但贡献却微乎其微.这句话一直记在我心中，发誓要为中国开源事业做我仅有的一点微薄贡献
+		</para>
+		<para>另外写文档也是知识积累，还可以增加在圈内的影响力.</para>
+		<para>人跟动物的不同,就是人类可以把自己学习的经验教给下一代人.下一代在上一代的基础上再创新,不断积累才有今天.</para>
+		<para>所以我把自己的经验写出来,可以让经验传承</para>
+
+		<para>
+			<emphasis>没有内容的章节:</emphasis>
+		</para>
+		<para>目前我自己一人维护所有文档，写作时间有限，当我发现一个好主题就会加入到文档中，待我有时间再完善章节，所以你会发现很多章节是空无内容的.
+		</para>
+		<para>文档目前几乎是流水帐试的写作，维护量很大，先将就着看吧.</para>
+		<para>
+			<simplelist>
+				<member>我想到哪写到哪,你会发现文章没一个中心,今天这里写点,明天跳过本章写其它的.</member>
+				<member>文中例子绝对多,对喜欢复制然后粘贴朋友很有用,不用动手写,也省时间.</member>
+				<member>理论的东西,网上大把,我这里就不写了,需要可以去网上查.</member>
+				<member>我爱写错别字,还有一些是打错的,如果发现请指正.</member>
+				<member>文中大部分试验是在Debian/Ubuntu/Redhat AS上完成.</member>
+			</simplelist>
+		</para>
 		<sidebar id="reader">
 			<title>写给读者</title>
 
-			<para>
-				欢迎提出宝贵的建议,如有问题请到
-				<ulink url="http://groups.google.com/group/netkiller">邮件列表</ulink>
-				讨论
-			</para>
+			<!-- <para> 欢迎提出宝贵的建议,如有问题请到 <ulink url="http://groups.google.com/group/netkiller">邮件列表</ulink> 讨论 </para> -->
 
 			<simplelist>
 				<member>
@@ -166,7 +61,7 @@
 					我想捐赠给某些基金会继续运转，或者建立一个团队维护它。
 				</member>
 				<member>
-					我用了10年时间坚持不停地写作，持续更新，才有今天你看到的《Netkiller 手扎》系列文档，在中国能坚持10年，同时没有任何收益的技术类文档，是非常不容易的。
+					我用了20年时间坚持不停地写作，持续更新，才有今天你看到的《Netkiller 手扎》系列文档，在中国能坚持20年，同时没有任何收益的技术类文档，是非常不容易的。
 				</member>
 				<member>
 					有很多时候想放弃，看到外国读者的支持与国内社区的影响，我坚持了下来。
@@ -180,17 +75,122 @@
 
 			</simplelist>
 		</sidebar>
+		<sidebar id="preface.contents">
+			<title>系列文档</title>
+			<para>下面是我多年积累下来的经验总结，整理成文档供大家参考:</para>
+			<simplelist>
+				<member>
+					<ulink url="../architect/index.html">Netkiller Architect 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../developer/index.html">Netkiller Developer 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../php/index.html">Netkiller PHP 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../python/index.html">Netkiller Python 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../testing/index.html">Netkiller Testing 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../cryptography/index.html">Netkiller Cryptography 手札</ulink>
+				</member>
+
+				<member>
+					<ulink url="../linux/index.html">Netkiller Linux 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../freebsd/index.html">Netkiller FreeBSD 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../shell/index.html">Netkiller Shell 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../security/index.html">Netkiller Security 手札</ulink>
+				</member>
+
+				<member>
+					<ulink url="../www/index.html">Netkiller Web 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../monitoring/index.html">Netkiller Monitoring 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../storage/index.html">Netkiller Storage 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../mail/index.html">Netkiller Mail 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../docbook/index.html">Netkiller Docbook 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../version/index.html">Netkiller Version 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../database/index.html">Netkiller Database 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../postgresql/index.html">Netkiller PostgreSQL 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../mysql/index.html">Netkiller MySQL 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../nosql/index.html">Netkiller NoSQL 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../ldap/index.html">Netkiller LDAP 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../network/index.html">Netkiller Network 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../cisco/index.html">Netkiller Cisco IOS 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../h3c/index.html">Netkiller H3C 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../multimedia/index.html">Netkiller Multimedia 手札</ulink>
+				</member>
+
+				<member>
+					<ulink url="../management/index.html">Netkiller Management 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../spring/index.html">Netkiller Spring 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../perl/index.html">Netkiller Perl 手札</ulink>
+				</member>
+				<member>
+					<ulink url="../radio/index.html">Netkiller Amateur Radio 手札</ulink>
+				</member>
+			</simplelist>
+			<!-- <orderedlist> <title>文档内容简介:</title> <listitem> <para>Network</para> </listitem> <listitem> <para>Security</para> </listitem> <listitem> <para>Web Application</para> </listitem> <listitem> <para>Database</para> </listitem> <listitem> <para>Storage And Backup/Restore</para> </listitem> <listitem> </listitem> <listitem> </listitem> </orderedlist> <sidebar id="preface.reader"> <title>Audience(读者对象)</title> <para>This book is intended primarily for Linux system administrators who are familiar with the following 
+				activities:</para> <orderedlist> <title>Audience</title> <listitem> <para>Linux system administration procedures, including kernel configuration</para> </listitem> <listitem> <para>Installation and configuration of cluster, such as load balancing, High Availability, </para> </listitem> <listitem> <para>Installation and configuration of shared storage networks, such as Fibre Channel SANs</para> </listitem> <listitem> <para>Installation and configuration of web server, such as apache, nginx, lighttpd, tomcat/resin 
+				... </para> </listitem> </orderedlist> <para>本文档的读者对象:</para> <para>文档面向有所有读者。您可以选读您所需要的章节,无需全篇阅读,因为有些章节不一定对你有用,用得着就翻来看看,暂时用不到的可以不看. </para> <orderedlist> <title>大体分来读者可以分为几类:</title> <listitem> <para>架构工程师</para> </listitem> <listitem> <para>系统管理员 </para> </listitem> <listitem> <para>系统支持,部署工程师</para> </listitem> </orderedlist> <para>不管是谁,做什么的,我希望通过阅读这篇文档都能对你有所帮助。</para> </sidebar> -->
+
+		</sidebar>
 		<!-- <para>支持这个项目(Support this project)</para> <para> <ulink url="http://sourceforge.net/donate/index.php?group_id=306976">Donations</ulink> </para> <para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para> -->
 	</section>
 
+	&preface.about.me.xml;
+
 	<section id="preface.download">
 		<title>如何获得文档</title>
-		<!-- <para>你可以使用镜像下载获得HTML文档，例如使用wget软件下载整个网站</para> <screen> $ wget -m http://netkiller.github.io/index.html </screen> <para>指定下载</para> <screen> $ wget -m http://netkiller.github.io/centos/index.html </screen> </sidebar> <sidebar id="htmlhelp"> <title>CHM 格式电子文档下载</title> <para> <ulink url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" 
-			/> </para> </sidebar> <sidebar> <title>PDF 格式</title> <para> <ulink url="http://www.scribd.com/neo_chen">Download PDF Document 下载PDF文档1</ulink> </para> <para> <ulink url="http://www.docin.com/netkiller">Download PDF Document 下载PDF文档2</ulink> </para> </sidebar> <sidebar> <title>EPUB 格式</title>  </sidebar> -->
+		<!-- <para>你可以使用镜像下载获得HTML文档，例如使用wget软件下载整个网站</para> <screen> $ wget -m http://netkiller.github.io/index.html </screen> <para>指定下载</para> <screen> $ wget -m http://netkiller.github.io/centos/index.html </screen> </sidebar> <sidebar id="htmlhelp"> <title>CHM 格式电子文档下载</title> <para> <ulink url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" /> </para> </sidebar> <sidebar> <title>PDF 格式</title> <para> <ulink url="http://www.scribd.com/neo_chen">Download PDF Document 下载PDF文档1</ulink> </para> <para> 
+			<ulink url="http://www.docin.com/netkiller">Download PDF Document 下载PDF文档2</ulink> </para> </sidebar> <sidebar> <title>EPUB 格式</title> </sidebar> -->
 
-		<section>
+		<sidebar>
 			<title>下载 Netkiller 手札 (epub,kindle,chm,pdf)</title>
 			<simplelist>
+				<member>
+					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2020">Netkiller 手札 2020版</ulink>
+				</member>
 				<member>
 					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2019">Netkiller 手札 2019版</ulink>
 				</member>
@@ -204,8 +204,15 @@
 					<ulink url="http://www.netkiller.cn/download/2017/">Netkiller 手札 2017版</ulink>
 				</member>
 			</simplelist>
-		</section>
-		<section>
+		</sidebar>
+		<sidebar>
+			<title>通过 GIT 镜像整个网站</title>
+			<para>
+				<ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink>
+			</para>
+			<para>$ git clone https://github.com/netkiller/netkiller.github.com.git</para>
+		</sidebar>
+		<sidebar>
 			<title>镜像下载</title>
 			<para>整站下载</para>
 			<screen>
@@ -219,27 +226,15 @@ wget -m http://www.netkiller.cn/index.html
 wget -m wget -m http://www.netkiller.cn/linux/index.html			
 			]]>
 			</screen>
-		</section>
-		<section>
-			<title>克隆 github 仓库</title>
-			<sidebar>
-				<title>通过 GIT 镜像整个网站</title>
-				<para>
-					<ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink>
-				</para>
-				<para>$ git clone https://github.com/netkiller/netkiller.github.com.git</para>
-			</sidebar>
-		</section>
-		<section>
+		</sidebar>
+		<sidebar>
 			<title>Yum 下载文档</title>
-			<sidebar>
-				<title>其他方式</title>
-				<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>
-				<para>YUM 在线安装电子书</para>
-				<para>
-					<ulink url="http://netkiller.sourceforge.net/pub/repo/" />
-				</para>
-				<screen>
+			<para>获得光盘介质，RPM包，DEB包，如有特别需要，请联系我</para>
+			<para>YUM 在线安装电子书</para>
+			<para>
+				<ulink url="http://netkiller.sourceforge.net/pub/repo/" />
+			</para>
+			<screen>
 			<![CDATA[
 # cat >> /etc/yum.repos.d/netkiller.repo <<EOF
 [netkiller]
@@ -250,9 +245,9 @@ gpgcheck=0
 gpgkey=
 EOF
 			]]>
-				</screen>
-				<para>查找包</para>
-				<screen>
+			</screen>
+			<para>查找包</para>
+			<screen>
 			<![CDATA[
 # yum search netkiller
 
@@ -266,49 +261,39 @@ netkiller-postgresql.x86_64 : Netkiller postgresql Cookbook
 netkiller-python.x86_64 : Netkiller python Cookbook
 netkiller-version.x86_64 : Netkiller version Cookbook	
 			]]>
-				</screen>
-				<para>安装包</para>
-				<screen>
+			</screen>
+			<para>安装包</para>
+			<screen>
 				<![CDATA[
 yum install netkiller-docbook
 				]]>
-				</screen>
-			</sidebar>
-		</section>
+			</screen>
+		</sidebar>
 	</section>
 	&section.donations.xml;
 	<section id="contacts">
-        <title>联系方式</title>
-        <para>主站 <ulink url="http://www.netkiller.cn/"></ulink></para>
-        <para>备用 <ulink url="http://netkiller.github.io/"></ulink></para>
-		<para>繁体网站 <ulink url="http://netkiller.sourceforge.net/"></ulink></para>
-        <sidebar>
-			<title>Blogger</title>
-			<para>LinkedIn: <ulink url="http://cn.linkedin.com/in/netkiller" /></para>
-			<para>OSChina: <ulink url="http://my.oschina.net/neochen/" /></para>
-			<para>Facebook: <ulink url="https://www.facebook.com/bg7nyt" /></para>
-			<para>Flickr: <ulink url="http://www.flickr.com/photos/bg7nyt/" /></para>
-			
-			<para>Disqus: <ulink url="http://disqus.com/netkiller/" /></para>
-			<para>solidot: <ulink url="http://solidot.org/~netkiller/" /></para>
-			<para>SegmentFault: <ulink url="https://segmentfault.com/u/netkiller" /></para>
-			
-			<para>Reddit:	<ulink url="https://www.reddit.com/user/netkiller/" /></para>
-			<para>Digg: <ulink url="http://www.digg.com/netkiller" /></para>
-			<para>Twitter: <ulink url="http://twitter.com/bg7nyt" /></para>
-			
-			<para>weibo:	<ulink url="http://weibo.com/bg7nyt">http://weibo.com/bg7nyt</ulink></para>
-		</sidebar>
-        <para></para>
-        <sidebar id="contact">
+		<title>联系方式</title>
+		<para>
+			主站
+			<ulink url="http://www.netkiller.cn/"></ulink>
+		</para>
+		<para>
+			备用
+			<ulink url="http://netkiller.github.io/"></ulink>
+		</para>
+		<para>
+			繁体网站
+			<ulink url="http://netkiller.sourceforge.net/"></ulink>
+		</para>
+		<sidebar id="contact">
 			<title>联系作者</title>
 			<para>Mobile: +86 13113668890</para><!-- 133-2299-3040 -->
 			<!-- <para>Tel: +86 755 2981-2080</para> -->
-			<para>Email: 	netkiller@msn.com</para>
-			<para>QQ群:		128659835 请注明“读者”</para>
-			<para>QQ: 		13721218</para>
-			<para>ICQ: 		101888222</para>
-			
+			<para>Email: netkiller@msn.com</para>
+			<para>QQ群: 128659835 请注明“读者”</para>
+			<para>QQ: 13721218</para>
+			<para>ICQ: 101888222</para>
+
 			<literallayout>
 			<![CDATA[
 			]]>
@@ -316,14 +301,79 @@ yum install netkiller-docbook
 			<para>注：请不要问我安装问题！</para>
 		</sidebar>
 		<sidebar>
+			<title>博客 Blogger</title>
+			<para>
+				知乎专栏
+				<ulink url="https://zhuanlan.zhihu.com/netkiller" />
+			</para>
+			<para>
+				LinkedIn:
+				<ulink url="http://cn.linkedin.com/in/netkiller" />
+			</para>
+			<para>
+				OSChina:
+				<ulink url="http://my.oschina.net/neochen/" />
+			</para>
+			<para>
+				Facebook:
+				<ulink url="https://www.facebook.com/bg7nyt" />
+			</para>
+			<para>
+				Flickr:
+				<ulink url="http://www.flickr.com/photos/bg7nyt/" />
+			</para>
+
+			<para>
+				Disqus:
+				<ulink url="http://disqus.com/netkiller/" />
+			</para>
+			<para>
+				solidot:
+				<ulink url="http://solidot.org/~netkiller/" />
+			</para>
+			<para>
+				SegmentFault:
+				<ulink url="https://segmentfault.com/u/netkiller" />
+			</para>
+
+			<para>
+				Reddit:
+				<ulink url="https://www.reddit.com/user/netkiller/" />
+			</para>
+			<para>
+				Digg:
+				<ulink url="http://www.digg.com/netkiller" />
+			</para>
+			<para>
+				Twitter:
+				<ulink url="http://twitter.com/bg7nyt" />
+			</para>
+			<para>
+				weibo:
+				<ulink url="http://weibo.com/bg7nyt">http://weibo.com/bg7nyt</ulink>
+			</para>
+			<!-- <para>Yahoo/AIM/GTalk: bg7nyt</para> <para>IRC: irc://irc.freenode.net /nickname netkiller or neo</para> <para>ITEYE: <ulink url="http://netkiller-github-com.iteye.com" /></para> <para>51CTO: <ulink url="http://bg7nyt.blog.51cto.com/" />|<ulink url="http://g.51cto.com/netkiller" /></para> -->
+		</sidebar>
+		<para></para>
+
+		<sidebar>
 			<title>Xbox club</title>
 			<para>我的 xbox 上的ID是 netkiller xbox，我创建了一个俱乐部 netkiller 欢迎加入。</para>
 		</sidebar>
 		<sidebar>
 			<title>Radio</title>
-			<para><markup>CQ CQ CQ DE BG7NYT:</markup></para>
+			<para>
+				<markup>CQ CQ CQ DE BG7NYT:</markup>
+			</para>
 			<!-- <para>欢迎无线电爱好者和我QSO,我的QTH在深圳宝安区龙华镇溪山美地,设备YAESU FT-50R,FT-60R,FT-7800 144-430双段机, 拉杆天线/GP天线 Nagoya MAG-79EL-3W/Yagi</para> -->
-			<para>如果这篇文章对你有所帮助,请寄给我一张QSL卡片,<ulink url="http://www.qrz.cn/call/?callsign=bg7nyt">qrz.cn</ulink> or <ulink url="http://www.qrz.com/callsign?callsign=bg7nyt">qrz.com</ulink> or <ulink url="http://hamcall.net/call?callsign=bg7nyt">hamcall.net</ulink></para>
+			<para>
+				如果这篇文章对你有所帮助,请寄给我一张QSL卡片,
+				<ulink url="http://www.qrz.cn/call/?callsign=bg7nyt">qrz.cn</ulink>
+				or
+				<ulink url="http://www.qrz.com/callsign?callsign=bg7nyt">qrz.com</ulink>
+				or
+				<ulink url="http://hamcall.net/call?callsign=bg7nyt">hamcall.net</ulink>
+			</para>
 			<para>Personal Amateur Radiostations of P.R.China</para>
 			<para>ZONE CQ24 ITU44 ShenZhen, China </para>
 			<para>Best Regards, VY 73! OP. BG7NYT</para>
@@ -336,14 +386,6 @@ yum install netkiller-docbook
 			<para>YSF: YSF80337 - CN China 1 - W24166/TG46001</para>
 			<para>DMR: BM_China_46001 - DMR Radio ID: 4600441</para>
 		</sidebar>
-			<!--
-			<para><ulink url="http://netkiller.sourceforge.net/"></ulink></para>
-			<para>Yahoo/AIM/GTalk: bg7nyt</para>
-			<para>IRC: irc://irc.freenode.net /nickname netkiller or neo</para>
-			
-			<para>ITEYE: <ulink url="http://netkiller-github-com.iteye.com" /></para>
-			<para>51CTO: <ulink url="http://bg7nyt.blog.51cto.com/" />|<ulink url="http://g.51cto.com/netkiller" /></para>
-		 -->
-    </section>
-	
+	</section>
+
 </preface>
