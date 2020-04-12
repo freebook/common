@@ -12,13 +12,13 @@
 	<sidebar>
 		<title>微信（Wechat）</title>
 		<para>
-			<graphic format="png" fileref="/images/wechat/459776289764510664.jpg" srccredit="neo" width="400" />
+			<graphic format="png" fileref="/images/wechat/459776289764510664.jpg" srccredit="neo" width="350" />
 		</para>
 	</sidebar>
 	<sidebar>
 		<title>支付宝（Alipay）</title>
 		<para>
-			<graphic format="png" fileref="/images/alipay/270435415900516688.jpg" srccredit="neo" width="400" />
+			<graphic format="png" fileref="/images/alipay/270435415900516688.jpg" srccredit="neo" width="350" />
 		</para>
 		<!-- <para><ulink url="https://me.alipay.com/netkiller" /></para> -->
 	</sidebar>
