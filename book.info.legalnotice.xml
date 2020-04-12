@@ -1,40 +1,60 @@
 <legalnotice id="legalnotice">
 	<title>版权声明</title>
 	<para>转载请与作者联系，转载时请务必标明文章原始出处和作者信息及本声明。</para>
-	<simplelist type='horiz' columns='4'>
+
+	<simplelist type='horiz' columns='3'>
 		<member>
-			<ulink url="https://creativecommons.org/licenses/by/4.0/">
-				<graphic format="png" fileref="/images/by-nc-sa.png" srccredit="neo" width="180" />
+			<ulink url="images/cover.png">
+				<graphic format="png" fileref="images/cover.png" srccredit="neo" width="250" />
 			</ulink>
 		</member>
 		<member>
-			<simplelist>
-				<member>
-					<ulink url="http://www.netkiller.cn">http://www.netkiller.cn</ulink>
-				</member>
-				<member>
-					<ulink url="http://netkiller.github.io/">http://netkiller.github.io</ulink>
-				</member>
-				<member>
-					<ulink url="http://netkiller.sourceforge.net/">http://netkiller.sourceforge.net</ulink>
-				</member>
-			</simplelist>
+			<para></para>
 		</member>
 		<member>
-			<ulink url="/images/weixin.jpg">
-				<graphic format="png" fileref="/images/weixin.jpg" srccredit="neo" width="80" />
-			</ulink>
-		</member>
-		<member>
-			<simplelist>
-				<member>微信订阅号 netkiller-ebook (微信扫描二维码）</member>
-				<member>QQ：13721218 请注明“读者”</member>
-				<member>QQ群：128659835 请注明“读者”</member>
+			<simplelist type='horiz' columns='2'>
+				<member>
+					<ulink url="https://creativecommons.org/licenses/by/4.0/">
+						<graphic format="png" fileref="/images/by-nc-sa.png" srccredit="neo" width="180" />
+					</ulink>
+				</member>
+				<member>
+					<simplelist>
+						<member>
+							<ulink url="http://www.netkiller.cn">http://www.netkiller.cn</ulink>
+						</member>
+						<member>
+							<ulink url="http://netkiller.github.io/">http://netkiller.github.io</ulink>
+						</member>
+						<member>
+							<ulink url="http://netkiller.sourceforge.net/">http://netkiller.sourceforge.net</ulink>
+						</member>
+					</simplelist>
+				</member>
+				<member>
+					<ulink url="/images/weixin.jpg">
+						<graphic format="png" fileref="/images/weixin.jpg" srccredit="neo" width="80" />
+					</ulink>
+				</member>
+				<member>
+					<simplelist>
+						<member>微信订阅号 netkiller-ebook (微信扫描二维码）</member>
+						<member>QQ：13721218 请注明“读者”</member>
+						<member>QQ群：128659835 请注明“读者”</member>
+					</simplelist>
+				</member>
 			</simplelist>
 		</member>
 	</simplelist>
-	<para></para>
 </legalnotice>
+
+<publisher>
+	<publishername>Neo</publishername>
+</publisher>
+<isbn>ISBN#</isbn>
+<edition>User's Guide version 1.0 for Linux</edition>
+<pubdate><?dbtimestamp format="Y-m-d H:M:S"?>
+</pubdate>
 
 <releaseinfo>
 	<para>

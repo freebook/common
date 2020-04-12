@@ -4,6 +4,7 @@
 <!ENTITY BG7NYT "&Neo;">
 <!ENTITY Netkiller "<emphasis><trademark>Netkiller</trademark></emphasis>">
 <!ENTITY OSCM "<ulink url='https://github.com/oscm/shell'>Netkiller OSCM</ulink>">
+<!ENTITY HOLDER "Netkiller(Neo Chan). All rights reserved.">
 
 <!ENTITY book.info.author.xml		SYSTEM "../common/book.info.author.xml">
 <!ENTITY book.info.legalnotice.xml 	SYSTEM "../common/book.info.legalnotice.xml">
