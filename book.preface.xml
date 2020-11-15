@@ -213,19 +213,13 @@ IT知识变化非常快，而且具有时效性，这样发布非常混乱，经
 			<title>下载 Netkiller 手札 (epub,kindle,chm,pdf)</title>
 			<simplelist>
 				<member>
-					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2020">Netkiller 手札 2020版</ulink>
+					EPUB <ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/epub" />
 				</member>
 				<member>
-					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2019">Netkiller 手札 2019版</ulink>
+					MOBI <ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/mobi" />
 				</member>
 				<member>
-					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2018">Netkiller 手札 2018版</ulink>
-				</member>
-				<member>
-					<ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/2017">Netkiller 手札 2017版</ulink>
-				</member>
-				<member>
-					<ulink url="http://www.netkiller.cn/download/2017/">Netkiller 手札 2017版</ulink>
+					CHM <ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/chm" />
 				</member>
 			</simplelist>
 		</sidebar>
