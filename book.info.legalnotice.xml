@@ -14,12 +14,12 @@
 		<member>
 			<simplelist type='horiz' columns='2'>
 				<member>
-					<ulink url="https://creativecommons.org/licenses/by/4.0/">
-						<graphic format="png" fileref="/images/by-nc-sa.png" srccredit="neo" width="180" />
-					</ulink>
-				</member>
-				<member>
 					<simplelist>
+						<member>
+							<ulink url="https://creativecommons.org/licenses/by/4.0/">
+								<graphic format="png" fileref="/images/by-nc-sa.png" srccredit="neo" width="180" />
+							</ulink>
+						</member>
 						<member>
 							<ulink url="http://www.netkiller.cn">http://www.netkiller.cn</ulink>
 						</member>
@@ -29,42 +29,36 @@
 						<member>
 							<ulink url="http://netkiller.sourceforge.net/">http://netkiller.sourceforge.net</ulink>
 						</member>
-					</simplelist>
-				</member>
-				<member>
-					<ulink url="/images/weixin.jpg">
-						<graphic format="png" fileref="/images/weixin.jpg" srccredit="neo" width="80" />
-					</ulink>
-				</member>
-				<member>
-					<simplelist>
+
 						<member>微信订阅号 netkiller-ebook (微信扫描二维码）</member>
 						<member>QQ：13721218 请注明“读者”</member>
 						<member>QQ群：128659835 请注明“读者”</member>
 						<member></member>
-						<member><ulink url="https://zhuanlan.zhihu.com/netkiller">知乎专栏</ulink> | <ulink url="https://www.zhihu.com/club/1241768772601950208">多维度架构</ulink></member>
+						<member>
+							<ulink url="https://zhuanlan.zhihu.com/netkiller">知乎专栏</ulink>
+							|
+							<ulink url="https://www.zhihu.com/club/1241768772601950208">多维度架构</ulink>
+						</member>
 						<member></member>
 					</simplelist>
+				</member>
+				<member>
+					<ulink url="images/weixin.jpg">
+						<graphic format="png" fileref="images/weixin.jpg" srccredit="neo" width="200" />
+					</ulink>
 				</member>
 			</simplelist>
 		</member>
 	</simplelist>
 </legalnotice>
 
-<publisher>
-	<publishername>Neo</publishername>
-</publisher>
-<isbn>ISBN#</isbn>
-<edition>User's Guide version 1.0 for Linux</edition>
-<pubdate><?dbtimestamp format="Y-m-d H:M:S"?>
-</pubdate>
+<!-- <publisher> <publishername>Neo</publishername> </publisher> <isbn>ISBN#</isbn> <edition>User's Guide version 1.0 for Linux</edition> <pubdate><?dbtimestamp format="Y-m-d H:M:S"?></pubdate> -->
 
 <releaseinfo>
 	<para>
 		电子书最近一次更新于
 		<date><?dbtimestamp format="Y-m-d H:M:S"?>
 		</date>
-		.
 	</para>
 </releaseinfo>
 
