@@ -2,7 +2,8 @@
 <!-- $Id: book.preface.xml 616 2013-06-14 05:10:30Z netkiller $ -->
 <preface id="preface">
 	<title>自述</title>
-	<graphic format="png" fileref="images/cover.png" srccredit="neo" width="400" />
+	<graphic format="png" fileref="images/cover.png"
+		srccredit="neo" width="400" />
 
 	<blockquote>
 		<screen>
@@ -27,9 +28,13 @@ IT知识变化非常快，而且具有时效性，这样发布非常混乱，经
 
 	</blockquote>
 
-	<para>目前技术书籍的价格一路飙升，动则￥80，￥100，少则￥50，￥60. 技术书籍有时效性，随着技术的革新或淘汰，大批书记成为废纸垃圾。并且这些书技术内容雷同，相互抄袭，质量越来越差，甚至里面给出的例子错误百出，只能购买影印版，或者翻译的版本。 </para>
-	<para>在这种背景下我便萌生了自己写书的想法，资料主要来源是我的笔记与例子。我并不想出版，只为分享，所有我制作了基于CC License 发行的系列电子书。</para>
-	<para>本书注重例子，少理论（捞干货），只要你对着例子一步一步操作，就会成功，会让你有成就感并能坚持学下去，因为很多人遇到障碍就会放弃，其实我就是这种人，只要让他看到希望，就能坚持下去。</para>
+	<para>目前技术书籍的价格一路飙升，动则￥80，￥100，少则￥50，￥60.
+		技术书籍有时效性，随着技术的革新或淘汰，大批书记成为废纸垃圾。并且这些书技术内容雷同，相互抄袭，质量越来越差，甚至里面给出的例子错误百出，只能购买影印版，或者翻译的版本。
+	</para>
+	<para>在这种背景下我便萌生了自己写书的想法，资料主要来源是我的笔记与例子。我并不想出版，只为分享，所有我制作了基于CC License
+		发行的系列电子书。</para>
+	<para>本书注重例子，少理论（捞干货），只要你对着例子一步一步操作，就会成功，会让你有成就感并能坚持学下去，因为很多人遇到障碍就会放弃，其实我就是这种人，只要让他看到希望，就能坚持下去。
+	</para>
 
 	<section id="reader">
 		<title>写给读者</title>
@@ -72,7 +77,8 @@ IT知识变化非常快，而且具有时效性，这样发布非常混乱，经
 		<sidebar id="reader">
 			<title>写给读者</title>
 
-			<!-- <para> 欢迎提出宝贵的建议,如有问题请到 <ulink url="http://groups.google.com/group/netkiller">邮件列表</ulink> 讨论 </para> -->
+			<!-- <para> 欢迎提出宝贵的建议,如有问题请到 <ulink url="http://groups.google.com/group/netkiller">邮件列表</ulink> 
+				讨论 </para> -->
 
 			<simplelist>
 				<member>
@@ -85,7 +91,8 @@ IT知识变化非常快，而且具有时效性，这样发布非常混乱，经
 					我想捐赠给某些基金会继续运转，或者建立一个团队维护它。
 				</member>
 				<member>
-					我用了20年时间坚持不停地写作，持续更新，才有今天你看到的《Netkiller 手扎》系列文档，在中国能坚持20年，同时没有任何收益的技术类文档，是非常不容易的。
+					我用了20年时间坚持不停地写作，持续更新，才有今天你看到的《Netkiller
+					手扎》系列文档，在中国能坚持20年，同时没有任何收益的技术类文档，是非常不容易的。
 				</member>
 				<member>
 					有很多时候想放弃，看到外国读者的支持与国内社区的影响，我坚持了下来。
@@ -194,44 +201,76 @@ IT知识变化非常快，而且具有时效性，这样发布非常混乱，经
 					<ulink url="../radio/index.html">Netkiller Amateur Radio 手札</ulink>
 				</member>
 			</simplelist>
-			<!-- <orderedlist> <title>文档内容简介:</title> <listitem> <para>Network</para> </listitem> <listitem> <para>Security</para> </listitem> <listitem> <para>Web Application</para> </listitem> <listitem> <para>Database</para> </listitem> <listitem> <para>Storage And Backup/Restore</para> </listitem> <listitem> </listitem> <listitem> </listitem> </orderedlist> <sidebar id="preface.reader"> <title>Audience(读者对象)</title> <para>This book is intended primarily for Linux system administrators who are familiar with the following 
-				activities:</para> <orderedlist> <title>Audience</title> <listitem> <para>Linux system administration procedures, including kernel configuration</para> </listitem> <listitem> <para>Installation and configuration of cluster, such as load balancing, High Availability, </para> </listitem> <listitem> <para>Installation and configuration of shared storage networks, such as Fibre Channel SANs</para> </listitem> <listitem> <para>Installation and configuration of web server, such as apache, nginx, lighttpd, tomcat/resin 
-				... </para> </listitem> </orderedlist> <para>本文档的读者对象:</para> <para>文档面向有所有读者。您可以选读您所需要的章节,无需全篇阅读,因为有些章节不一定对你有用,用得着就翻来看看,暂时用不到的可以不看. </para> <orderedlist> <title>大体分来读者可以分为几类:</title> <listitem> <para>架构工程师</para> </listitem> <listitem> <para>系统管理员 </para> </listitem> <listitem> <para>系统支持,部署工程师</para> </listitem> </orderedlist> <para>不管是谁,做什么的,我希望通过阅读这篇文档都能对你有所帮助。</para> </sidebar> -->
+			<!-- <orderedlist> <title>文档内容简介:</title> <listitem> <para>Network</para> 
+				</listitem> <listitem> <para>Security</para> </listitem> <listitem> <para>Web 
+				Application</para> </listitem> <listitem> <para>Database</para> </listitem> 
+				<listitem> <para>Storage And Backup/Restore</para> </listitem> <listitem> 
+				</listitem> <listitem> </listitem> </orderedlist> <sidebar id="preface.reader"> 
+				<title>Audience(读者对象)</title> <para>This book is intended primarily for Linux 
+				system administrators who are familiar with the following activities:</para> 
+				<orderedlist> <title>Audience</title> <listitem> <para>Linux system administration 
+				procedures, including kernel configuration</para> </listitem> <listitem> 
+				<para>Installation and configuration of cluster, such as load balancing, 
+				High Availability, </para> </listitem> <listitem> <para>Installation and 
+				configuration of shared storage networks, such as Fibre Channel SANs</para> 
+				</listitem> <listitem> <para>Installation and configuration of web server, 
+				such as apache, nginx, lighttpd, tomcat/resin ... </para> </listitem> </orderedlist> 
+				<para>本文档的读者对象:</para> <para>文档面向有所有读者。您可以选读您所需要的章节,无需全篇阅读,因为有些章节不一定对你有用,用得着就翻来看看,暂时用不到的可以不看. 
+				</para> <orderedlist> <title>大体分来读者可以分为几类:</title> <listitem> <para>架构工程师</para> 
+				</listitem> <listitem> <para>系统管理员 </para> </listitem> <listitem> <para>系统支持,部署工程师</para> 
+				</listitem> </orderedlist> <para>不管是谁,做什么的,我希望通过阅读这篇文档都能对你有所帮助。</para> </sidebar> -->
 
 		</sidebar>
-		<!-- <para>支持这个项目(Support this project)</para> <para> <ulink url="http://sourceforge.net/donate/index.php?group_id=306976">Donations</ulink> </para> <para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para> -->
+		<!-- <para>支持这个项目(Support this project)</para> <para> <ulink url="http://sourceforge.net/donate/index.php?group_id=306976">Donations</ulink> 
+			</para> <para>招商银行(China Merchants Bank) 陈景峰 9555500000007459</para> -->
 	</section>
 
 	&preface.about.me.xml;
 
 	<section id="preface.download">
 		<title>如何获得文档</title>
-		<!-- <para>你可以使用镜像下载获得HTML文档，例如使用wget软件下载整个网站</para> <screen> $ wget -m http://netkiller.github.io/index.html </screen> <para>指定下载</para> <screen> $ wget -m http://netkiller.github.io/centos/index.html </screen> </sidebar> <sidebar id="htmlhelp"> <title>CHM 格式电子文档下载</title> <para> <ulink url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" /> </para> </sidebar> <sidebar> <title>PDF 格式</title> <para> <ulink url="http://www.scribd.com/neo_chen">Download PDF Document 下载PDF文档1</ulink> </para> <para> 
-			<ulink url="http://www.docin.com/netkiller">Download PDF Document 下载PDF文档2</ulink> </para> </sidebar> <sidebar> <title>EPUB 格式</title> </sidebar> -->
+		<!-- <para>你可以使用镜像下载获得HTML文档，例如使用wget软件下载整个网站</para> <screen> $ wget -m 
+			http://netkiller.github.io/index.html </screen> <para>指定下载</para> <screen> 
+			$ wget -m http://netkiller.github.io/centos/index.html </screen> </sidebar> 
+			<sidebar id="htmlhelp"> <title>CHM 格式电子文档下载</title> <para> <ulink url="https://sourceforge.net/projects/netkiller/files/htmlhelp.chm/" 
+			/> </para> </sidebar> <sidebar> <title>PDF 格式</title> <para> <ulink url="http://www.scribd.com/neo_chen">Download 
+			PDF Document 下载PDF文档1</ulink> </para> <para> <ulink url="http://www.docin.com/netkiller">Download 
+			PDF Document 下载PDF文档2</ulink> </para> </sidebar> <sidebar> <title>EPUB 格式</title> 
+			</sidebar> -->
 
 		<sidebar>
 			<title>下载 Netkiller 手札 (epub,kindle,chm,pdf)</title>
 			<simplelist>
 				<member>
-					EPUB <ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/epub" />
+					EPUB
+					<ulink
+						url="https://github.com/netkiller/netkiller.github.io/tree/master/download/epub" />
 				</member>
 				<member>
-					MOBI <ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/mobi" />
+					MOBI
+					<ulink
+						url="https://github.com/netkiller/netkiller.github.io/tree/master/download/mobi" />
 				</member>
 				<member>
-					PDF <ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/pdf" />
+					PDF
+					<ulink
+						url="https://github.com/netkiller/netkiller.github.io/tree/master/download/pdf" />
 				</member>
 				<member>
-					CHM <ulink url="https://github.com/netkiller/netkiller.github.io/tree/master/download/chm" />
+					CHM
+					<ulink
+						url="https://github.com/netkiller/netkiller.github.io/tree/master/download/chm" />
 				</member>
 			</simplelist>
 		</sidebar>
 		<sidebar>
 			<title>通过 GIT 镜像整个网站</title>
 			<para>
-				<ulink url="https://github.com/netkiller/netkiller.github.com.git"></ulink>
+				<ulink
+					url="https://github.com/netkiller/netkiller.github.com.git"></ulink>
 			</para>
-			<para>$ git clone https://github.com/netkiller/netkiller.github.com.git</para>
+			<para>$ git clone
+				https://github.com/netkiller/netkiller.github.com.git</para>
 		</sidebar>
 		<sidebar>
 			<title>镜像下载</title>
@@ -373,7 +412,11 @@ yum install netkiller-docbook
 				weibo:
 				<ulink url="http://weibo.com/bg7nyt">http://weibo.com/bg7nyt</ulink>
 			</para>
-			<!-- <para>Yahoo/AIM/GTalk: bg7nyt</para> <para>IRC: irc://irc.freenode.net /nickname netkiller or neo</para> <para>ITEYE: <ulink url="http://netkiller-github-com.iteye.com" /></para> <para>51CTO: <ulink url="http://bg7nyt.blog.51cto.com/" />|<ulink url="http://g.51cto.com/netkiller" /></para> -->
+
+			<!-- <para>Yahoo/AIM/GTalk: bg7nyt</para> <para>IRC: irc://irc.freenode.net 
+				/nickname netkiller or neo</para> <para>ITEYE: <ulink url="http://netkiller-github-com.iteye.com" 
+				/></para> <para>51CTO: <ulink url="http://bg7nyt.blog.51cto.com/" />|<ulink 
+				url="http://g.51cto.com/netkiller" /></para> -->
 		</sidebar>
 		<para></para>
 
@@ -386,7 +429,8 @@ yum install netkiller-docbook
 			<para>
 				<markup>CQ CQ CQ DE BG7NYT:</markup>
 			</para>
-			<!-- <para>欢迎无线电爱好者和我QSO,我的QTH在深圳宝安区龙华镇溪山美地,设备YAESU FT-50R,FT-60R,FT-7800 144-430双段机, 拉杆天线/GP天线 Nagoya MAG-79EL-3W/Yagi</para> -->
+			<!-- <para>欢迎无线电爱好者和我QSO,我的QTH在深圳宝安区龙华镇溪山美地,设备YAESU FT-50R,FT-60R,FT-7800 
+				144-430双段机, 拉杆天线/GP天线 Nagoya MAG-79EL-3W/Yagi</para> -->
 			<para>
 				如果这篇文章对你有所帮助,请寄给我一张QSL卡片,
 				<ulink url="http://www.qrz.cn/call/?callsign=bg7nyt">qrz.cn</ulink>
