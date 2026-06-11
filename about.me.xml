@@ -48,7 +48,7 @@
 		<para>周末 QTH2：广东省惠州市惠阳区三街道碧桂园·山河城</para>
 		<para>偶尔 QTH3：广东省深圳市龙华新区民治街道溪山美地</para>
 	</sidebar>
-	<sectionsidebar
+	<sidebar>
 		<title>我的AI项目</title>
 		<para><ulink
 			url="https://www.bing.com/search?q=%E9%AD%94%E7%B0%A7%E6%99%BA%E8%84%91">魔簧智脑（Elastolink）</ulink></para>
