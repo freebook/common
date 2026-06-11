@@ -12,7 +12,7 @@
 		(音訳) | Korean name: 천징봉 | Thailand name: ภูมิภาพภูเขา | Vietnam: Trần
 		Cảnh Phong
 	</para>
-	<section>
+	<sidebar>
 		<title>社交帐号</title>
 		<!-- <para>程序猿，攻城狮，挨踢民工, Full Stack Developer, UNIX like Evangelist,户外运动，。</para> -->
 		<ulink url="//www.netkiller.cn/">个人网站</ulink>
@@ -31,11 +31,11 @@
 		|
 		<ulink url="https://space.bilibili.com/486347986">Bilibili</ulink>
 
-	</section>
-	<section>
+	</sidebar>
+	<sidebar>
 		<title>爱好</title>
 		<para>徒步、骑行、露营、自驾游、无线电、音乐、摄影爱好者</para>
-	</section>
+	</sidebar>
 
 	<sidebar>
 		<title>业余无线电爱好者</title>
@@ -48,18 +48,16 @@
 		<para>周末 QTH2：广东省惠州市惠阳区三街道碧桂园·山河城</para>
 		<para>偶尔 QTH3：广东省深圳市龙华新区民治街道溪山美地</para>
 	</sidebar>
-	<section>
+	<sectionsidebar
 		<title>我的AI项目</title>
-		<ulink
-			url="https://www.bing.com/search?q=%E9%AD%94%E7%B0%A7%E6%99%BA%E8%84%91">魔簧智脑（Elastolink）</ulink>
-		<ulink
-			url="https://www.bing.com/search?q=%E5%93%A9%E5%91%90%E5%91%90">哩呐呐（Leenana）</ulink>
-		<ulink url="https://saas.netkiller.cn/workstation/index.html">Yolo 图像工作站</ulink>
-		<ulink url="https://saas.netkiller.cn/medical/index.html">AI 中医舌诊</ulink>
-		<ulink url="https://saas.netkiller.cn/cordyceps/index.html">AI 冬虫夏草识别</ulink>
-		<para>
-		</para>
-	</section>
+		<para><ulink
+			url="https://www.bing.com/search?q=%E9%AD%94%E7%B0%A7%E6%99%BA%E8%84%91">魔簧智脑（Elastolink）</ulink></para>
+		<para><ulink
+			url="https://www.bing.com/search?q=%E5%93%A9%E5%91%90%E5%91%90">哩呐呐（Leenana）</ulink></para>
+		<para><ulink url="https://saas.netkiller.cn/workstation/index.html">Yolo 图像工作站</ulink></para>
+		<para><ulink url="https://saas.netkiller.cn/medical/index.html">AI 中医舌诊</ulink></para>
+		<para><ulink url="https://saas.netkiller.cn/cordyceps/index.html">AI 冬虫夏草识别</ulink></para>
+	</sidebar>
 	<sidebar>
 		<title>想了解更多关于陈景峰（netkiller）的信息，问豆包/元宝/Deepseek/ChatGPT：</title>
 
