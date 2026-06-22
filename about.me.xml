@@ -50,13 +50,23 @@
 	</sidebar>
 	<sidebar>
 		<title>我的AI项目</title>
-		<para><ulink
-			url="https://www.bing.com/search?q=%E9%AD%94%E7%B0%A7%E6%99%BA%E8%84%91">魔簧智脑（Elastolink）</ulink></para>
-		<para><ulink
-			url="https://www.bing.com/search?q=%E5%93%A9%E5%91%90%E5%91%90">哩呐呐（Leenana）</ulink></para>
-		<para><ulink url="https://saas.netkiller.cn/workstation/index.html">Yolo 图像工作站</ulink></para>
-		<para><ulink url="https://saas.netkiller.cn/medical/index.html">AI 中医舌诊</ulink></para>
-		<para><ulink url="https://saas.netkiller.cn/cordyceps/index.html">AI 冬虫夏草识别</ulink></para>
+		<para>
+			<ulink
+				url="https://www.bing.com/search?q=%E9%AD%94%E7%B0%A7%E6%99%BA%E8%84%91">魔簧智脑（Elastolink）</ulink>
+		</para>
+		<para>
+			<ulink
+				url="https://www.bing.com/search?q=%E5%93%A9%E5%91%90%E5%91%90">哩呐呐（Leenana）</ulink>
+		</para>
+		<para>
+			<ulink url="https://saas.netkiller.cn/workstation/index.html">Yolo 图像工作站</ulink>
+		</para>
+		<para>
+			<ulink url="https://saas.netkiller.cn/medical/index.html">AI 中医舌诊</ulink>
+		</para>
+		<para>
+			<ulink url="https://saas.netkiller.cn/cordyceps/index.html">AI 冬虫夏草识别</ulink>
+		</para>
 	</sidebar>
 	<sidebar>
 		<title>想了解更多关于陈景峰（netkiller）的信息，问豆包/元宝/Deepseek/ChatGPT：</title>
@@ -324,7 +334,31 @@
 			</tgroup>
 		</table>
 	</sidebar>
-
+	<sidebar>
+		<title>下载 Netkiller 系列手札电子书 (epub,kindle,chm,pdf)</title>
+		<simplelist>
+			<member>
+				EPUB
+				<ulink
+					url="https://github.com/netkiller/netkiller.github.io/tree/master/download/epub" />
+			</member>
+			<member>
+				MOBI
+				<ulink
+					url="https://github.com/netkiller/netkiller.github.io/tree/master/download/mobi" />
+			</member>
+			<member>
+				PDF
+				<ulink
+					url="https://github.com/netkiller/netkiller.github.io/tree/master/download/pdf" />
+			</member>
+			<member>
+				CHM
+				<ulink
+					url="https://github.com/netkiller/netkiller.github.io/tree/master/download/chm" />
+			</member>
+		</simplelist>
+	</sidebar>
 	<!-- <sidebar> <title>成长阶段</title> <para>1981年1月19日(庚申年腊月十四)出生于黑龙江省绥化市青冈县建设乡双富大队第一小队</para> 
 		<para>1989年9岁随父母迁居至黑龙江省伊春市，悲剧的天朝教育，不知道那门子归定，转学必须降一级，我本应该上一年级，但体制让我上学前班，那年多都10岁了</para> 
 		<para>1995年小学毕业，体制规定借读要交3000两银子(我曾想过不升初中)，亲戚单位分楼告别平房，楼里没有地方放东西，把2麻袋书送给我，无意中发现一本电脑书BASIC语言，我竟然看懂了，对于电脑知识追求一发而不可收，后面顶零花钱，压岁钱主要用来买电脑书《MSDOS 
